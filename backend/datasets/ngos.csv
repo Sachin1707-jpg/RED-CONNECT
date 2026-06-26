@@ -1,0 +1,501 @@
+role,name,email,city,lat,lng,status
+ngo,Sanjeevani Organization,contact@sanjeevaniorganization.org,Noida,28.510865,77.407176,approved
+ngo,Punya Blood NGO,contact@punyabloodngo.org,New Delhi,28.567189,77.154543,approved
+ngo,Humanity First Project,reach@humanityfirstproject.org,Ghaziabad,28.62476,77.35581,approved
+ngo,Prasad Blood Alliance,bloodbank@prasadbloodalliance.org,Sonipat,28.957438,77.033162,approved
+ngo,Swasthya Seva Society,donate@swasthyasevasociety.org,New Delhi,28.573558,77.12712,approved
+ngo,Nirmal Seva Alliance,support@nirmalsevaalliance.org,New Delhi,28.62448,77.186936,approved
+ngo,Seva Blood Initiative,donate@sevabloodinitiative.org,New Delhi,28.635518,77.128537,approved
+ngo,Raksha Setu NGO,help@rakshasetungo.org,Greater Noida,28.539799,77.461024,approved
+ngo,Sahara Blood Institute,seva@saharabloodinstitute.org,Greater Noida,28.457588,77.645044,approved
+ngo,Umeed Blood Association,help@umeedbloodassociation.org,Noida,28.639991,77.38434,pending
+ngo,Samarpan Trust Alliance,care@samarpantrustalliance.org,New Delhi,28.618024,77.137545,approved
+ngo,Helping Hands Project,info@helpinghandsproject.org,Gurugram,28.538936,77.04482,approved
+ngo,Navjeevan Trust Network,reach@navjeevantrustnetwork.org,New Delhi,28.748619,77.255481,approved
+ngo,Kripa Blood Association,contact@kripabloodassociation.org,Noida,28.641097,77.371093,approved
+ngo,Seva Blood Movement,admin@sevabloodmovement.org,Greater Noida,28.425868,77.461904,approved
+ngo,Jeevan Raksha Society,seva@jeevanrakshasociety.org,Faridabad,28.380329,77.255568,approved
+ngo,Samarpan Trust Network,bloodbank@samarpantrustnetwork.org,Greater Noida,28.597293,77.570681,approved
+ngo,Sanjeevani NGO,support@sanjeevaningo.org,New Delhi,28.552413,77.257773,approved
+ngo,Vatsalya Blood Association,reach@vatsalyabloodassociati.org,Noida,28.584951,77.49062,approved
+ngo,Anand Foundation Centre,contact@anandfoundationcentre.org,Greater Noida,28.491329,77.617745,pending
+ngo,Samarpan Trust Organization,bloodbank@samarpantrustorganizat.org,Ghaziabad,28.679796,77.325884,approved
+ngo,Helping Hands NGO,seva@helpinghandsngo.org,New Delhi,28.582461,77.135013,approved
+ngo,Sanjeevani Mission,info@sanjeevanimission.org,New Delhi,28.73979,77.203434,approved
+ngo,Asha Kiran Society,admin@ashakiransociety.org,New Delhi,28.741094,77.20057,approved
+ngo,Naya Jeevan Initiative,seva@nayajeevaninitiative.org,New Delhi,28.646767,77.071471,approved
+ngo,Amrit Blood Initiative,help@amritbloodinitiative.org,Noida,28.57745,77.341043,pending
+ngo,Navjeevan Trust Mission,contact@navjeevantrustmission.org,Noida,28.613721,77.359618,approved
+ngo,Amrit Blood Mission,care@amritbloodmission.org,New Delhi,28.731652,77.138924,approved
+ngo,Punya Blood Association,support@punyabloodassociation.org,Greater Noida,28.522646,77.5971,approved
+ngo,Aarogya Project,bloodbank@aarogyaproject.org,New Delhi,28.697975,77.106685,approved
+ngo,Life Saver Foundation,admin@lifesaverfoundation.org,Noida,28.570836,77.338729,approved
+ngo,Rahat Foundation Association,care@rahatfoundationassocia.org,Noida,28.512081,77.320431,approved
+ngo,Udaan Foundation Alliance,reach@udaanfoundationallianc.org,Noida,28.626065,77.395895,approved
+ngo,Jeevan Raksha Project,info@jeevanrakshaproject.org,Gurugram,28.531955,77.106461,approved
+ngo,Blood Bridge Organization,care@bloodbridgeorganizatio.org,Greater Noida,28.41735,77.636541,approved
+ngo,Sewa Bharti Trust,help@sewabhartitrust.org,Greater Noida,28.434001,77.43176,approved
+ngo,Jan Seva Society,reach@jansevasociety.org,Faridabad,28.465302,77.396061,approved
+ngo,Samarpan Trust Mission,help@samarpantrustmission.org,Noida,28.50321,77.459871,approved
+ngo,Sewa Bharti Hub,help@sewabhartihub.org,New Delhi,28.636762,77.267936,approved
+ngo,Amrit Blood NGO,admin@amritbloodngo.org,New Delhi,28.650232,77.24092,approved
+ngo,Raktadan Foundation,care@raktadanfoundation.org,Greater Noida,28.579541,77.565619,approved
+ngo,Punya Blood Society,donate@punyabloodsociety.org,Greater Noida,28.430367,77.527637,approved
+ngo,Suraksha Blood Foundation,help@surakshabloodfoundatio.org,Gurugram,28.384469,77.044699,approved
+ngo,Jiwan Jyoti Centre,donate@jiwanjyoticentre.org,Ghaziabad,28.706145,77.420622,approved
+ngo,Humanity First NGO,support@humanityfirstngo.org,Faridabad,28.355383,77.354452,approved
+ngo,Umeed Blood Hub,info@umeedbloodhub.org,Ghaziabad,28.68865,77.453132,approved
+ngo,Karuna Trust Mission,donate@karunatrustmission.org,Greater Noida,28.561472,77.526938,approved
+ngo,Amrit Blood Hub,donate@amritbloodhub.org,Greater Noida,28.578551,77.450647,approved
+ngo,Sukoon Foundation Initiative,care@sukoonfoundationinitia.org,Noida,28.510882,77.348128,approved
+ngo,Save Lives Hub,help@saveliveshub.org,Ghaziabad,28.787901,77.460864,approved
+ngo,Raktadan Initiative,support@raktadaninitiative.org,Noida,28.612002,77.318825,approved
+ngo,Kripa Blood Project,support@kripabloodproject.org,New Delhi,28.582293,77.15788,approved
+ngo,Care & Cure Association,care@careandcureassociation.org,Noida,28.513829,77.373191,approved
+ngo,Pahal Blood Foundation,bloodbank@pahalbloodfoundation.org,Greater Noida,28.4663,77.555982,approved
+ngo,Prana Foundation Hub,info@pranafoundationhub.org,New Delhi,28.566812,77.11798,pending
+ngo,Umeed Blood Society,bloodbank@umeedbloodsociety.org,New Delhi,28.719918,77.218993,pending
+ngo,Vatsalya Blood Hub,donate@vatsalyabloodhub.org,Noida,28.585589,77.440083,approved
+ngo,Navjeevan Trust Society,bloodbank@navjeevantrustsociety.org,New Delhi,28.729057,77.117231,approved
+ngo,Amrit Blood Trust,reach@amritbloodtrust.org,New Delhi,28.721246,77.066656,approved
+ngo,Sahara Blood Mission,bloodbank@saharabloodmission.org,Greater Noida,28.585334,77.466965,approved
+ngo,Aarogya Trust,help@aarogyatrust.org,Greater Noida,28.452379,77.445286,pending
+ngo,Shakti Foundation Movement,support@shaktifoundationmoveme.org,Ghaziabad,28.657992,77.425022,approved
+ngo,Life Saver Network,contact@lifesavernetwork.org,Noida,28.502302,77.446616,approved
+ngo,Udaan Foundation NGO,seva@udaanfoundationngo.org,New Delhi,28.571256,77.25473,approved
+ngo,Sukoon Foundation Mission,admin@sukoonfoundationmissio.org,Greater Noida,28.537548,77.64561,approved
+ngo,Pahal Blood Institute,help@pahalbloodinstitute.org,Gurugram,28.43094,77.01951,approved
+ngo,Helping Hands Centre,admin@helpinghandscentre.org,New Delhi,28.636148,77.06385,approved
+ngo,Punya Blood Centre,admin@punyabloodcentre.org,Noida,28.589817,77.438537,approved
+ngo,Nishkam Seva Initiative,contact@nishkamsevainitiative.org,New Delhi,28.602649,77.290447,pending
+ngo,Aarogya Foundation,admin@aarogyafoundation.org,Greater Noida,28.443573,77.445739,approved
+ngo,Nishkam Seva Mission,support@nishkamsevamission.org,New Delhi,28.599636,77.24406,approved
+ngo,Nirmal Seva Foundation,bloodbank@nirmalsevafoundation.org,Gurugram,28.354499,77.010849,approved
+ngo,Shakti Foundation Project,help@shaktifoundationprojec.org,Ghaziabad,28.731509,77.478998,approved
+ngo,Jiwan Jyoti Institute,seva@jiwanjyotiinstitute.org,Noida,28.522419,77.444831,approved
+ngo,Pahal Blood Hub,donate@pahalbloodhub.org,New Delhi,28.675466,77.233463,approved
+ngo,Punya Blood Alliance,contact@punyabloodalliance.org,New Delhi,28.715282,77.196015,approved
+ngo,Navjeevan Trust Centre,support@navjeevantrustcentre.org,Ghaziabad,28.617018,77.310466,approved
+ngo,Asha Kiran Project,seva@ashakiranproject.org,Sonipat,29.033779,77.094165,approved
+ngo,Naya Jeevan Network,contact@nayajeevannetwork.org,Ghaziabad,28.69139,77.317528,pending
+ngo,Jeevan Raksha Centre,donate@jeevanrakshacentre.org,Faridabad,28.31321,77.347358,approved
+ngo,Rahat Foundation Movement,support@rahatfoundationmovemen.org,New Delhi,28.596147,77.212483,approved
+ngo,Helping Hands Initiative,admin@helpinghandsinitiative.org,Faridabad,28.453394,77.323395,approved
+ngo,Sanjeevani Association,admin@sanjeevaniassociation.org,New Delhi,28.680307,77.223222,approved
+ngo,Udaan Foundation Foundation,seva@udaanfoundationfoundat.org,New Delhi,28.603755,77.218,approved
+ngo,United Blood Institute,donate@unitedbloodinstitute.org,Ghaziabad,28.657109,77.416474,approved
+ngo,Samarpan Trust NGO,admin@samarpantrustngo.org,Bahadurgarh,28.747813,77.040438,approved
+ngo,Punya Blood Initiative,admin@punyabloodinitiative.org,Greater Noida,28.47737,77.629139,pending
+ngo,Sewa Bharti Mission,admin@sewabhartimission.org,New Delhi,28.740548,77.083151,approved
+ngo,Save Lives Institute,care@savelivesinstitute.org,Greater Noida,28.446277,77.624426,approved
+ngo,Red Cross Initiative,seva@redcrossinitiative.org,New Delhi,28.631084,77.231796,approved
+ngo,Save Lives Project,care@savelivesproject.org,Noida,28.500261,77.450147,approved
+ngo,Care & Cure Institute,contact@careandcureinstitute.org,New Delhi,28.730313,77.122458,approved
+ngo,Nirmal Seva Trust,care@nirmalsevatrust.org,Noida,28.638812,77.451131,approved
+ngo,Kripa Blood Network,help@kripabloodnetwork.org,Noida,28.537399,77.353146,approved
+ngo,Vandana Blood Movement,bloodbank@vandanabloodmovement.org,New Delhi,28.726853,77.252991,approved
+ngo,Seva Blood Institute,info@sevabloodinstitute.org,Faridabad,28.309895,77.34647,approved
+ngo,Jan Seva Project,admin@jansevaproject.org,Gurugram,28.447115,77.132381,approved
+ngo,Swasthya Seva Association,admin@swasthyasevaassociatio.org,New Delhi,28.609554,77.234758,pending
+ngo,Jan Seva NGO,admin@jansevango.org,Noida,28.572477,77.433775,approved
+ngo,Punya Blood Hub,seva@punyabloodhub.org,Ghaziabad,28.710077,77.413247,approved
+ngo,Mamta Blood Society,donate@mamtabloodsociety.org,Gurugram,28.388481,76.968143,approved
+ngo,Aarogya Association,admin@aarogyaassociation.org,New Delhi,28.711872,77.100535,approved
+ngo,Asha Kiran Organization,donate@ashakiranorganization.org,Faridabad,28.342001,77.254048,approved
+ngo,Prasad Blood Association,help@prasadbloodassociation.org,Greater Noida,28.537351,77.532306,approved
+ngo,Jeevan Raksha Network,support@jeevanrakshanetwork.org,Faridabad,28.376912,77.329158,approved
+ngo,Life Saver Society,contact@lifesaversociety.org,Noida,28.56378,77.452738,approved
+ngo,Naya Jeevan Foundation,info@nayajeevanfoundation.org,Sonipat,29.008728,77.139024,approved
+ngo,Karuna Trust NGO,info@karunatrustngo.org,Faridabad,28.34476,77.230414,pending
+ngo,Rahat Foundation Institute,seva@rahatfoundationinstitu.org,New Delhi,28.567001,77.244215,approved
+ngo,Prasad Blood Hub,contact@prasadbloodhub.org,New Delhi,28.679101,77.125946,approved
+ngo,Bal Raksha Organization,info@balrakshaorganization.org,Noida,28.514917,77.36007,pending
+ngo,Red Cross Mission,admin@redcrossmission.org,New Delhi,28.749275,77.119651,approved
+ngo,Aarogya Initiative,donate@aarogyainitiative.org,Gurugram,28.396954,76.999412,pending
+ngo,Raksha Setu Foundation,contact@rakshasetufoundation.org,Gurugram,28.388823,77.12697,approved
+ngo,Prana Foundation Centre,bloodbank@pranafoundationcentre.org,New Delhi,28.735032,77.106697,approved
+ngo,Maitri Foundation Organization,support@maitrifoundationorgani.org,Noida,28.501013,77.358422,approved
+ngo,Naya Jeevan NGO,admin@nayajeevanngo.org,New Delhi,28.703171,77.098483,approved
+ngo,United Blood Trust,reach@unitedbloodtrust.org,Noida,28.574365,77.337463,approved
+ngo,Kripa Blood Foundation,reach@kripabloodfoundation.org,Noida,28.521957,77.378692,approved
+ngo,Humanity First Institute,contact@humanityfirstinstitute.org,Bahadurgarh,28.66841,76.967446,approved
+ngo,Save Lives Trust,help@savelivestrust.org,Noida,28.549386,77.337102,pending
+ngo,Blood Care Network,bloodbank@bloodcarenetwork.org,Gurugram,28.517825,77.146997,approved
+ngo,Jeevan Raksha Association,bloodbank@jeevanrakshaassociatio.org,New Delhi,28.741103,77.080927,pending
+ngo,Sparsh Foundation Movement,admin@sparshfoundationmoveme.org,New Delhi,28.714402,77.158112,approved
+ngo,Vandana Blood Mission,seva@vandanabloodmission.org,Greater Noida,28.438605,77.491062,approved
+ngo,Swasthya Seva NGO,bloodbank@swasthyasevango.org,New Delhi,28.55813,77.058714,approved
+ngo,Suraksha Blood Association,care@surakshabloodassociati.org,Faridabad,28.354463,77.391538,approved
+ngo,Jiwan Jyoti Hub,admin@jiwanjyotihub.org,Noida,28.544611,77.444314,approved
+ngo,Helping Hands Foundation,support@helpinghandsfoundation.org,Gurugram,28.371452,77.093114,approved
+ngo,Mamta Blood Project,seva@mamtabloodproject.org,Gurugram,28.376541,77.049308,approved
+ngo,Raksha Setu Project,help@rakshasetuproject.org,Faridabad,28.421451,77.26556,approved
+ngo,Suraksha Blood Trust,donate@surakshabloodtrust.org,Noida,28.529597,77.450577,approved
+ngo,Blood Care Initiative,donate@bloodcareinitiative.org,New Delhi,28.658923,77.090173,approved
+ngo,Helping Hands Network,reach@helpinghandsnetwork.org,New Delhi,28.566817,77.074106,approved
+ngo,Karuna Trust Society,support@karunatrustsociety.org,Gurugram,28.376586,77.042185,approved
+ngo,Vatsalya Blood Project,info@vatsalyabloodproject.org,New Delhi,28.70595,77.123481,approved
+ngo,Amrit Blood Institute,admin@amritbloodinstitute.org,Noida,28.529879,77.349486,approved
+ngo,Nirmal Seva NGO,care@nirmalsevango.org,New Delhi,28.562961,77.112913,approved
+ngo,Jan Seva Movement,info@jansevamovement.org,Greater Noida,28.530665,77.647739,approved
+ngo,Prana Foundation Project,seva@pranafoundationproject.org,Greater Noida,28.582875,77.41009,approved
+ngo,Care & Cure Alliance,reach@careandcurealliance.org,New Delhi,28.588832,77.068779,approved
+ngo,Suraksha Blood Network,contact@surakshabloodnetwork.org,New Delhi,28.571156,77.199037,approved
+ngo,Vandana Blood Association,help@vandanabloodassociatio.org,New Delhi,28.558833,77.299968,approved
+ngo,Seva Blood Project,contact@sevabloodproject.org,Gurugram,28.513767,77.031799,approved
+ngo,Blood Care Movement,seva@bloodcaremovement.org,Ghaziabad,28.709609,77.315818,approved
+ngo,Samarpan Trust Society,donate@samarpantrustsociety.org,Noida,28.513673,77.332738,approved
+ngo,United Blood Centre,admin@unitedbloodcentre.org,Noida,28.562677,77.310272,approved
+ngo,Swasthya Seva Organization,contact@swasthyasevaorganizati.org,Faridabad,28.472849,77.399324,approved
+ngo,Rahat Foundation Organization,support@rahatfoundationorganiz.org,New Delhi,28.738397,77.158541,approved
+ngo,Jeevan Raksha Organization,reach@jeevanrakshaorganizati.org,New Delhi,28.726568,77.165227,approved
+ngo,Sukoon Foundation Trust,reach@sukoonfoundationtrust.org,New Delhi,28.674439,77.142711,approved
+ngo,United Blood Society,donate@unitedbloodsociety.org,New Delhi,28.584357,77.066774,approved
+ngo,Care & Cure Network,help@careandcurenetwork.org,Gurugram,28.517458,76.958699,pending
+ngo,Suraksha Blood Hub,bloodbank@surakshabloodhub.org,Noida,28.512944,77.442462,approved
+ngo,Bal Raksha Movement,support@balrakshamovement.org,Faridabad,28.424211,77.322946,approved
+ngo,Prasad Blood NGO,contact@prasadbloodngo.org,Greater Noida,28.479949,77.529473,approved
+ngo,Aarogya Institute,support@aarogyainstitute.org,New Delhi,28.55822,77.190586,approved
+ngo,Jiwan Jyoti Trust,bloodbank@jiwanjyotitrust.org,New Delhi,28.669904,77.187513,approved
+ngo,Swasthya Seva Network,reach@swasthyasevanetwork.org,Noida,28.537389,77.377842,approved
+ngo,Blood Bridge Foundation,contact@bloodbridgefoundation.org,Greater Noida,28.523778,77.522375,approved
+ngo,Vishwas Foundation Project,seva@vishwasfoundationproje.org,Gurugram,28.517309,77.112106,approved
+ngo,Sparsh Foundation Organization,care@sparshfoundationorgani.org,New Delhi,28.568343,77.160492,approved
+ngo,Bal Raksha Society,info@balrakshasociety.org,New Delhi,28.734425,77.128431,approved
+ngo,Umeed Blood Mission,bloodbank@umeedbloodmission.org,New Delhi,28.680549,77.246061,approved
+ngo,Anand Foundation Institute,info@anandfoundationinstitu.org,New Delhi,28.588741,77.295432,approved
+ngo,Jeevan Daan Centre,support@jeevandaancentre.org,Sonipat,28.959827,77.052635,approved
+ngo,Anand Foundation Network,seva@anandfoundationnetwork.org,New Delhi,28.578714,77.175554,pending
+ngo,Amrit Blood Alliance,donate@amritbloodalliance.org,New Delhi,28.59748,77.143067,approved
+ngo,Bal Raksha Hub,admin@balrakshahub.org,Noida,28.601952,77.479083,approved
+ngo,Save Lives Movement,donate@savelivesmovement.org,Gurugram,28.359714,77.121658,pending
+ngo,Shakti Foundation Alliance,info@shaktifoundationallian.org,Greater Noida,28.450406,77.533925,approved
+ngo,Vandana Blood Network,bloodbank@vandanabloodnetwork.org,Gurugram,28.5481,77.065472,approved
+ngo,Blood Bridge Alliance,contact@bloodbridgealliance.org,Gurugram,28.409277,77.053221,approved
+ngo,Nirmal Seva Hub,care@nirmalsevahub.org,Sonipat,29.059956,77.112068,approved
+ngo,Swasthya Seva Mission,care@swasthyasevamission.org,Noida,28.634331,77.326405,approved
+ngo,Red Cross Alliance,care@redcrossalliance.org,Ghaziabad,28.660748,77.430772,approved
+ngo,Raksha Setu Alliance,help@rakshasetualliance.org,Noida,28.530628,77.424786,approved
+ngo,Sanjeevani Initiative,info@sanjeevaniinitiative.org,New Delhi,28.562734,77.086173,approved
+ngo,Amrit Blood Foundation,contact@amritbloodfoundation.org,Noida,28.596742,77.412466,approved
+ngo,Karuna Trust Alliance,donate@karunatrustalliance.org,Ghaziabad,28.746704,77.362124,pending
+ngo,Vatsalya Blood Foundation,bloodbank@vatsalyabloodfoundatio.org,New Delhi,28.587132,77.089804,pending
+ngo,Anand Foundation Mission,support@anandfoundationmission.org,New Delhi,28.578453,77.09988,approved
+ngo,Jan Seva Organization,reach@jansevaorganization.org,Greater Noida,28.434928,77.477346,approved
+ngo,Udaan Foundation Institute,donate@udaanfoundationinstitu.org,New Delhi,28.55127,77.261108,approved
+ngo,Sewa Bharti Centre,seva@sewabharticentre.org,Greater Noida,28.435078,77.649153,approved
+ngo,Save Lives Association,admin@savelivesassociation.org,Ghaziabad,28.742337,77.366497,approved
+ngo,Shakti Foundation Network,admin@shaktifoundationnetwor.org,Greater Noida,28.528401,77.641285,approved
+ngo,Red Cross Society,admin@redcrosssociety.org,Faridabad,28.480941,77.368345,approved
+ngo,Jiwan Jyoti NGO,bloodbank@jiwanjyotingo.org,New Delhi,28.615711,77.109792,pending
+ngo,Vatsalya Blood Initiative,seva@vatsalyabloodinitiativ.org,Ghaziabad,28.767942,77.474405,approved
+ngo,Rahat Foundation NGO,reach@rahatfoundationngo.org,Greater Noida,28.576952,77.597301,approved
+ngo,Jeevan Daan Society,contact@jeevandaansociety.org,Ghaziabad,28.605381,77.32667,pending
+ngo,Sanjeevani Institute,contact@sanjeevaniinstitute.org,Noida,28.50463,77.32768,approved
+ngo,Helping Hands Institute,contact@helpinghandsinstitute.org,New Delhi,28.563153,77.197618,approved
+ngo,Kripa Blood Trust,bloodbank@kripabloodtrust.org,Gurugram,28.371423,76.991145,approved
+ngo,Umeed Blood Centre,info@umeedbloodcentre.org,New Delhi,28.715012,77.207884,approved
+ngo,Hope Blood Movement,support@hopebloodmovement.org,New Delhi,28.608892,77.134129,approved
+ngo,United Blood Foundation,care@unitedbloodfoundation.org,Noida,28.63655,77.453848,approved
+ngo,United Blood Alliance,contact@unitedbloodalliance.org,Greater Noida,28.557811,77.407812,approved
+ngo,Humanity First Mission,reach@humanityfirstmission.org,New Delhi,28.593315,77.26556,approved
+ngo,Jeevan Daan Organization,contact@jeevandaanorganization.org,Gurugram,28.454711,77.007667,approved
+ngo,Sparsh Foundation Initiative,info@sparshfoundationinitia.org,New Delhi,28.648297,77.249193,approved
+ngo,Sparsh Foundation Project,donate@sparshfoundationprojec.org,Greater Noida,28.452115,77.635967,approved
+ngo,Navjeevan Trust NGO,seva@navjeevantrustngo.org,New Delhi,28.583158,77.284678,approved
+ngo,Hope Blood Centre,care@hopebloodcentre.org,Greater Noida,28.471123,77.500318,approved
+ngo,Jan Seva Foundation,care@jansevafoundation.org,Faridabad,28.341223,77.252639,pending
+ngo,Asha Kiran Hub,support@ashakiranhub.org,Greater Noida,28.588784,77.43172,approved
+ngo,Suraksha Blood Centre,contact@surakshabloodcentre.org,Ghaziabad,28.669697,77.381665,approved
+ngo,Kripa Blood Mission,care@kripabloodmission.org,Faridabad,28.33391,77.28776,approved
+ngo,Raktadan Association,seva@raktadanassociation.org,Ghaziabad,28.72854,77.474141,approved
+ngo,Umeed Blood Institute,reach@umeedbloodinstitute.org,Noida,28.523189,77.331197,approved
+ngo,Shakti Foundation Association,help@shaktifoundationassoci.org,Noida,28.535432,77.491159,approved
+ngo,Hope Blood Society,info@hopebloodsociety.org,Sonipat,28.979315,77.022644,approved
+ngo,Raksha Setu Organization,admin@rakshasetuorganization.org,Noida,28.529429,77.427596,approved
+ngo,Asha Kiran Initiative,contact@ashakiraninitiative.org,New Delhi,28.552523,77.263582,approved
+ngo,Bal Raksha Network,seva@balrakshanetwork.org,New Delhi,28.554423,77.114303,approved
+ngo,Aarogya Hub,bloodbank@aarogyahub.org,New Delhi,28.690232,77.196857,approved
+ngo,Kripa Blood Institute,reach@kripabloodinstitute.org,Faridabad,28.470489,77.335919,approved
+ngo,Jiwan Jyoti Network,info@jiwanjyotinetwork.org,Greater Noida,28.578949,77.460599,approved
+ngo,Jeevan Daan Network,bloodbank@jeevandaannetwork.org,Gurugram,28.446549,76.953931,approved
+ngo,Kripa Blood Hub,help@kripabloodhub.org,Greater Noida,28.578899,77.482013,approved
+ngo,Hope Blood Foundation,admin@hopebloodfoundation.org,Gurugram,28.458672,76.982169,approved
+ngo,Hope Blood Project,reach@hopebloodproject.org,Sonipat,29.018518,77.030747,approved
+ngo,Sahara Blood Organization,seva@saharabloodorganizatio.org,New Delhi,28.592018,77.22109,approved
+ngo,Anand Foundation Association,contact@anandfoundationassocia.org,Gurugram,28.400492,77.026367,approved
+ngo,Swasthya Seva Centre,care@swasthyasevacentre.org,New Delhi,28.666035,77.077315,approved
+ngo,Shakti Foundation NGO,bloodbank@shaktifoundationngo.org,Noida,28.569317,77.332907,pending
+ngo,Bal Raksha NGO,seva@balrakshango.org,New Delhi,28.67844,77.230176,approved
+ngo,Kripa Blood Centre,bloodbank@kripabloodcentre.org,New Delhi,28.64362,77.123586,approved
+ngo,Udaan Foundation Association,support@udaanfoundationassocia.org,New Delhi,28.603485,77.144037,approved
+ngo,Blood Bridge Initiative,contact@bloodbridgeinitiative.org,Noida,28.620815,77.459783,approved
+ngo,Jiwan Jyoti Initiative,seva@jiwanjyotiinitiative.org,Ghaziabad,28.685699,77.459325,approved
+ngo,Asha Kiran Foundation,info@ashakiranfoundation.org,Noida,28.624185,77.481161,approved
+ngo,Sparsh Foundation Centre,reach@sparshfoundationcentre.org,New Delhi,28.552997,77.05287,pending
+ngo,Hope Blood Alliance,help@hopebloodalliance.org,Ghaziabad,28.770835,77.346416,approved
+ngo,Seva Blood Hub,bloodbank@sevabloodhub.org,Gurugram,28.508335,76.983583,approved
+ngo,Samarpan Trust Movement,admin@samarpantrustmovement.org,Ghaziabad,28.639474,77.473198,approved
+ngo,Karuna Trust Centre,info@karunatrustcentre.org,Gurugram,28.461013,77.002899,approved
+ngo,Naya Jeevan Mission,contact@nayajeevanmission.org,New Delhi,28.646874,77.276366,approved
+ngo,Jeevan Daan Mission,reach@jeevandaanmission.org,New Delhi,28.722576,77.051652,approved
+ngo,Prasad Blood Initiative,admin@prasadbloodinitiative.org,Greater Noida,28.568113,77.493739,approved
+ngo,Helping Hands Society,care@helpinghandssociety.org,Sonipat,29.045419,77.004279,approved
+ngo,Sahara Blood Movement,info@saharabloodmovement.org,Ghaziabad,28.702125,77.421169,approved
+ngo,Pahal Blood Organization,help@pahalbloodorganization.org,New Delhi,28.617721,77.265423,approved
+ngo,Shakti Foundation Mission,support@shaktifoundationmissio.org,Greater Noida,28.45683,77.485489,approved
+ngo,United Blood Network,care@unitedbloodnetwork.org,New Delhi,28.715547,77.150932,approved
+ngo,Seva Blood Centre,seva@sevabloodcentre.org,Noida,28.618793,77.366179,approved
+ngo,Nirmal Seva Centre,info@nirmalsevacentre.org,Noida,28.617632,77.30801,approved
+ngo,Vatsalya Blood Alliance,contact@vatsalyabloodalliance.org,Faridabad,28.379696,77.2217,approved
+ngo,Vishwas Foundation Centre,contact@vishwasfoundationcentr.org,Gurugram,28.507805,77.131964,approved
+ngo,Bal Raksha Centre,reach@balrakshacentre.org,Ghaziabad,28.775264,77.320751,approved
+ngo,Blood Bridge Trust,help@bloodbridgetrust.org,Ghaziabad,28.773841,77.405393,approved
+ngo,Red Cross Association,help@redcrossassociation.org,Faridabad,28.457308,77.31242,approved
+ngo,Swasthya Seva Foundation,care@swasthyasevafoundation.org,Noida,28.503059,77.413267,approved
+ngo,Naya Jeevan Alliance,donate@nayajeevanalliance.org,Faridabad,28.307876,77.223769,approved
+ngo,Suraksha Blood Alliance,help@surakshabloodalliance.org,Ghaziabad,28.69509,77.403104,approved
+ngo,Sanjeevani Centre,contact@sanjeevanicentre.org,Ghaziabad,28.6854,77.302332,approved
+ngo,Jeevan Raksha NGO,info@jeevanrakshango.org,Bahadurgarh,28.662897,76.902667,approved
+ngo,Blood Bridge Hub,contact@bloodbridgehub.org,New Delhi,28.623175,77.23681,approved
+ngo,Umeed Blood Trust,admin@umeedbloodtrust.org,New Delhi,28.675725,77.227309,approved
+ngo,Blood Care Foundation,contact@bloodcarefoundation.org,Faridabad,28.302946,77.330139,approved
+ngo,Raksha Setu Network,reach@rakshasetunetwork.org,New Delhi,28.583199,77.265242,approved
+ngo,Vandana Blood Alliance,seva@vandanabloodalliance.org,New Delhi,28.64396,77.091618,pending
+ngo,Swasthya Seva Initiative,bloodbank@swasthyasevainitiative.org,New Delhi,28.705619,77.163189,approved
+ngo,Sahara Blood Network,admin@saharabloodnetwork.org,Gurugram,28.362128,77.14479,approved
+ngo,Sahara Blood Project,reach@saharabloodproject.org,Gurugram,28.495142,76.9531,approved
+ngo,Nirmal Seva Organization,support@nirmalsevaorganization.org,Gurugram,28.425335,77.086964,approved
+ngo,Karuna Trust Network,contact@karunatrustnetwork.org,Faridabad,28.364305,77.253605,approved
+ngo,Sanjeevani Movement,reach@sanjeevanimovement.org,Faridabad,28.3294,77.395074,approved
+ngo,Vishwas Foundation Hub,seva@vishwasfoundationhub.org,Greater Noida,28.469371,77.421266,approved
+ngo,Care & Cure Movement,support@careandcuremovement.org,Gurugram,28.411894,76.961512,approved
+ngo,Umeed Blood Foundation,bloodbank@umeedbloodfoundation.org,Gurugram,28.441943,76.96754,approved
+ngo,Prana Foundation Organization,reach@pranafoundationorganiz.org,Gurugram,28.454208,77.001908,approved
+ngo,Care & Cure NGO,support@careandcurengo.org,Noida,28.528847,77.336139,approved
+ngo,Sukoon Foundation Movement,donate@sukoonfoundationmoveme.org,Noida,28.628543,77.349261,pending
+ngo,Hope Blood Association,seva@hopebloodassociation.org,Greater Noida,28.55747,77.439039,approved
+ngo,Life Saver Trust,contact@lifesavertrust.org,Noida,28.530697,77.474154,approved
+ngo,Seva Blood Network,admin@sevabloodnetwork.org,Ghaziabad,28.68519,77.536625,approved
+ngo,Raktadan Network,contact@raktadannetwork.org,Gurugram,28.417769,77.148923,approved
+ngo,Blood Care Mission,care@bloodcaremission.org,New Delhi,28.724133,77.16457,pending
+ngo,Sukoon Foundation Hub,info@sukoonfoundationhub.org,Faridabad,28.441275,77.217991,approved
+ngo,Jeevan Raksha Hub,donate@jeevanrakshahub.org,New Delhi,28.628624,77.162086,approved
+ngo,Amrit Blood Association,contact@amritbloodassociation.org,Sonipat,29.085413,77.135686,approved
+ngo,Punya Blood Institute,seva@punyabloodinstitute.org,New Delhi,28.561154,77.086199,approved
+ngo,Maitri Foundation Institute,admin@maitrifoundationinstit.org,Faridabad,28.417957,77.288256,approved
+ngo,Asha Kiran Trust,care@ashakirantrust.org,Greater Noida,28.496263,77.442144,approved
+ngo,Maitri Foundation Hub,contact@maitrifoundationhub.org,New Delhi,28.64358,77.278147,approved
+ngo,Prana Foundation Trust,reach@pranafoundationtrust.org,New Delhi,28.72335,77.272177,approved
+ngo,Hope Blood Hub,bloodbank@hopebloodhub.org,Greater Noida,28.56845,77.557093,approved
+ngo,Prana Foundation Initiative,info@pranafoundationinitiat.org,Noida,28.594227,77.328554,approved
+ngo,Pahal Blood Initiative,donate@pahalbloodinitiative.org,New Delhi,28.727863,77.159743,approved
+ngo,Aarogya Society,contact@aarogyasociety.org,Noida,28.540666,77.467913,approved
+ngo,Naya Jeevan Trust,care@nayajeevantrust.org,New Delhi,28.641237,77.170609,approved
+ngo,Seva Blood Mission,seva@sevabloodmission.org,Greater Noida,28.567056,77.429797,approved
+ngo,Mamta Blood Network,support@mamtabloodnetwork.org,Bahadurgarh,28.742508,76.914635,approved
+ngo,Rahat Foundation Network,help@rahatfoundationnetwork.org,Faridabad,28.495726,77.203206,approved
+ngo,Red Cross Movement,donate@redcrossmovement.org,Noida,28.542959,77.37202,approved
+ngo,Nishkam Seva Alliance,help@nishkamsevaalliance.org,Noida,28.520711,77.336026,approved
+ngo,Suraksha Blood Institute,seva@surakshabloodinstitute.org,Gurugram,28.502256,76.985064,approved
+ngo,Red Cross Trust,donate@redcrosstrust.org,Ghaziabad,28.681625,77.480414,approved
+ngo,Bal Raksha Project,seva@balrakshaproject.org,Gurugram,28.368066,77.031903,approved
+ngo,Prasad Blood Project,care@prasadbloodproject.org,New Delhi,28.557334,77.225564,approved
+ngo,Sparsh Foundation Mission,seva@sparshfoundationmissio.org,Faridabad,28.493747,77.214268,approved
+ngo,Jiwan Jyoti Movement,bloodbank@jiwanjyotimovement.org,New Delhi,28.665262,77.274511,approved
+ngo,Rahat Foundation Initiative,seva@rahatfoundationinitiat.org,New Delhi,28.652663,77.182628,approved
+ngo,Anand Foundation Society,help@anandfoundationsociety.org,New Delhi,28.570535,77.112615,approved
+ngo,Navjeevan Trust Institute,support@navjeevantrustinstitut.org,New Delhi,28.602284,77.259333,approved
+ngo,Karuna Trust Trust,care@karunatrusttrust.org,Greater Noida,28.573905,77.579275,approved
+ngo,Punya Blood Movement,admin@punyabloodmovement.org,New Delhi,28.572008,77.080386,approved
+ngo,Prana Foundation Society,reach@pranafoundationsociety.org,Greater Noida,28.492411,77.499153,pending
+ngo,Navjeevan Trust Organization,reach@navjeevantrustorganiza.org,New Delhi,28.717945,77.181404,approved
+ngo,Vishwas Foundation Association,care@vishwasfoundationassoc.org,Sonipat,29.010106,77.125785,approved
+ngo,Prasad Blood Movement,care@prasadbloodmovement.org,Faridabad,28.463009,77.369526,approved
+ngo,Sparsh Foundation NGO,bloodbank@sparshfoundationngo.org,Greater Noida,28.532624,77.402889,approved
+ngo,Jiwan Jyoti Organization,support@jiwanjyotiorganization.org,New Delhi,28.650955,77.055207,approved
+ngo,Disha Blood Centre,contact@dishabloodcentre.org,Sonipat,29.07139,77.132656,approved
+ngo,Jan Seva Alliance,admin@jansevaalliance.org,New Delhi,28.733586,77.205868,approved
+ngo,Blood Care Alliance,info@bloodcarealliance.org,Gurugram,28.400116,77.054061,approved
+ngo,Raksha Setu Association,help@rakshasetuassociation.org,Sonipat,28.968057,77.089143,pending
+ngo,Nishkam Seva Trust,seva@nishkamsevatrust.org,Greater Noida,28.51805,77.632982,approved
+ngo,United Blood Hub,bloodbank@unitedbloodhub.org,Greater Noida,28.515469,77.468528,approved
+ngo,United Blood Project,seva@unitedbloodproject.org,Gurugram,28.471991,77.064036,approved
+ngo,Pahal Blood Association,seva@pahalbloodassociation.org,New Delhi,28.728362,77.125925,approved
+ngo,Life Saver NGO,care@lifesaverngo.org,Gurugram,28.394316,77.05249,approved
+ngo,Red Cross Hub,care@redcrosshub.org,Ghaziabad,28.632459,77.53802,approved
+ngo,Nishkam Seva Network,support@nishkamsevanetwork.org,Noida,28.544326,77.454426,approved
+ngo,Shakti Foundation Organization,seva@shaktifoundationorgani.org,New Delhi,28.620823,77.240711,approved
+ngo,Sahara Blood Centre,care@saharabloodcentre.org,Bahadurgarh,28.664033,76.930374,approved
+ngo,Shakti Foundation Trust,seva@shaktifoundationtrust.org,Noida,28.540302,77.426134,approved
+ngo,Swasthya Seva Project,info@swasthyasevaproject.org,Gurugram,28.350865,77.103135,approved
+ngo,Prasad Blood Society,bloodbank@prasadbloodsociety.org,Greater Noida,28.569989,77.469827,approved
+ngo,Karuna Trust Institute,seva@karunatrustinstitute.org,New Delhi,28.607613,77.138155,approved
+ngo,Suraksha Blood Organization,care@surakshabloodorganizat.org,Greater Noida,28.401352,77.586444,pending
+ngo,Raksha Setu Society,donate@rakshasetusociety.org,Noida,28.545605,77.328998,approved
+ngo,Sahara Blood Association,reach@saharabloodassociation.org,Ghaziabad,28.767631,77.539691,approved
+ngo,Red Cross Foundation,contact@redcrossfoundation.org,Noida,28.538482,77.479178,approved
+ngo,Raksha Setu Mission,reach@rakshasetumission.org,Greater Noida,28.599666,77.529362,approved
+ngo,Sparsh Foundation Foundation,reach@sparshfoundationfounda.org,Ghaziabad,28.735245,77.413266,approved
+ngo,Punya Blood Organization,donate@punyabloodorganization.org,New Delhi,28.735682,77.088555,approved
+ngo,Vishwas Foundation Alliance,reach@vishwasfoundationallia.org,Noida,28.551492,77.406028,approved
+ngo,Jiwan Jyoti Association,info@jiwanjyotiassociation.org,New Delhi,28.715206,77.178148,approved
+ngo,Navjeevan Trust Association,donate@navjeevantrustassociat.org,Faridabad,28.477629,77.284177,approved
+ngo,Care & Cure Organization,help@careandcureorganizatio.org,Noida,28.509025,77.41299,approved
+ngo,Rahat Foundation Foundation,bloodbank@rahatfoundationfoundat.org,Ghaziabad,28.602147,77.300695,approved
+ngo,Red Cross Centre,contact@redcrosscentre.org,Ghaziabad,28.63933,77.424465,approved
+ngo,Jan Seva Hub,donate@jansevahub.org,Noida,28.57715,77.328744,approved
+ngo,Sanjeevani Society,donate@sanjeevanisociety.org,Ghaziabad,28.751899,77.326662,approved
+ngo,Shakti Foundation Initiative,seva@shaktifoundationinitia.org,New Delhi,28.672601,77.25165,approved
+ngo,Jiwan Jyoti Society,support@jiwanjyotisociety.org,New Delhi,28.620769,77.092354,approved
+ngo,Sukoon Foundation Alliance,contact@sukoonfoundationallian.org,New Delhi,28.637928,77.205045,approved
+ngo,Nirmal Seva Project,help@nirmalsevaproject.org,New Delhi,28.612959,77.274717,approved
+ngo,Aarogya Centre,bloodbank@aarogyacentre.org,Noida,28.601237,77.416964,approved
+ngo,Life Saver Movement,support@lifesavermovement.org,Noida,28.51312,77.333985,approved
+ngo,United Blood Organization,donate@unitedbloodorganizatio.org,New Delhi,28.622587,77.133754,approved
+ngo,Jan Seva Trust,info@jansevatrust.org,Noida,28.563342,77.482599,approved
+ngo,Disha Blood Network,care@dishabloodnetwork.org,Noida,28.535576,77.306983,approved
+ngo,Pahal Blood Society,info@pahalbloodsociety.org,Noida,28.529444,77.408973,approved
+ngo,Disha Blood Project,support@dishabloodproject.org,Ghaziabad,28.631844,77.38823,approved
+ngo,Raksha Setu Initiative,donate@rakshasetuinitiative.org,Noida,28.530667,77.471678,approved
+ngo,Aarogya Organization,reach@aarogyaorganization.org,Sonipat,29.026529,77.018828,approved
+ngo,Jeevan Raksha Mission,admin@jeevanrakshamission.org,Ghaziabad,28.747188,77.491203,approved
+ngo,Sanjeevani Network,contact@sanjeevaninetwork.org,Gurugram,28.427987,76.967207,approved
+ngo,Hope Blood Trust,donate@hopebloodtrust.org,Faridabad,28.48277,77.361036,approved
+ngo,Pahal Blood Network,info@pahalbloodnetwork.org,New Delhi,28.595285,77.081533,approved
+ngo,Sukoon Foundation Project,seva@sukoonfoundationprojec.org,Noida,28.61625,77.476551,approved
+ngo,Nishkam Seva Society,contact@nishkamsevasociety.org,New Delhi,28.623316,77.249848,approved
+ngo,Life Saver Centre,seva@lifesavercentre.org,Faridabad,28.349684,77.369343,approved
+ngo,Blood Bridge Network,info@bloodbridgenetwork.org,Ghaziabad,28.654178,77.452229,approved
+ngo,Sukoon Foundation Foundation,reach@sukoonfoundationfounda.org,Ghaziabad,28.632403,77.349522,approved
+ngo,Raksha Setu Centre,help@rakshasetucentre.org,Noida,28.584682,77.345531,approved
+ngo,Mamta Blood Centre,reach@mamtabloodcentre.org,Greater Noida,28.469808,77.400243,approved
+ngo,Blood Care Hub,reach@bloodcarehub.org,Gurugram,28.471477,76.959469,approved
+ngo,Sparsh Foundation Institute,info@sparshfoundationinstit.org,New Delhi,28.633447,77.235983,pending
+ngo,Prana Foundation Network,donate@pranafoundationnetwork.org,Ghaziabad,28.617987,77.53659,approved
+ngo,Sewa Bharti Institute,seva@sewabhartiinstitute.org,Faridabad,28.401732,77.335318,approved
+ngo,Vishwas Foundation Society,seva@vishwasfoundationsocie.org,Ghaziabad,28.752384,77.310923,approved
+ngo,Amrit Blood Society,donate@amritbloodsociety.org,Gurugram,28.382739,77.106172,approved
+ngo,Humanity First Society,care@humanityfirstsociety.org,Noida,28.552084,77.318508,approved
+ngo,Naya Jeevan Centre,seva@nayajeevancentre.org,New Delhi,28.597575,77.110428,approved
+ngo,Jan Seva Association,admin@jansevaassociation.org,Greater Noida,28.42668,77.576929,approved
+ngo,Save Lives Mission,bloodbank@savelivesmission.org,New Delhi,28.702103,77.092303,approved
+ngo,Vishwas Foundation Organization,support@vishwasfoundationorgan.org,Ghaziabad,28.622896,77.372335,approved
+ngo,Humanity First Hub,admin@humanityfirsthub.org,New Delhi,28.610781,77.077649,approved
+ngo,Jeevan Daan Association,seva@jeevandaanassociation.org,Sonipat,29.020299,77.054446,approved
+ngo,Umeed Blood Initiative,info@umeedbloodinitiative.org,New Delhi,28.699458,77.132931,approved
+ngo,Jan Seva Initiative,bloodbank@jansevainitiative.org,Noida,28.573252,77.456775,approved
+ngo,Anand Foundation Hub,admin@anandfoundationhub.org,Noida,28.597961,77.315629,approved
+ngo,Vandana Blood Society,donate@vandanabloodsociety.org,New Delhi,28.719145,77.281676,approved
+ngo,Raksha Setu Institute,reach@rakshasetuinstitute.org,Gurugram,28.415335,76.986909,approved
+ngo,Samarpan Trust Hub,care@samarpantrusthub.org,Noida,28.625673,77.35071,approved
+ngo,Naya Jeevan Organization,seva@nayajeevanorganization.org,New Delhi,28.696152,77.298908,approved
+ngo,Jeevan Raksha Foundation,seva@jeevanrakshafoundation.org,Ghaziabad,28.69588,77.354569,approved
+ngo,Anand Foundation Project,donate@anandfoundationproject.org,New Delhi,28.635089,77.120814,approved
+ngo,Swasthya Seva Hub,care@swasthyasevahub.org,Greater Noida,28.412544,77.402199,pending
+ngo,Rahat Foundation Society,bloodbank@rahatfoundationsociety.org,New Delhi,28.609148,77.160789,approved
+ngo,Care & Cure Initiative,info@careandcureinitiative.org,Noida,28.581408,77.403356,approved
+ngo,Jeevan Raksha Movement,contact@jeevanrakshamovement.org,Greater Noida,28.544554,77.482885,approved
+ngo,Udaan Foundation Centre,help@udaanfoundationcentre.org,Ghaziabad,28.659862,77.385852,approved
+ngo,Kripa Blood Alliance,care@kripabloodalliance.org,New Delhi,28.660975,77.285794,approved
+ngo,Karuna Trust Organization,admin@karunatrustorganizatio.org,New Delhi,28.572851,77.095125,approved
+ngo,Save Lives NGO,admin@savelivesngo.org,Greater Noida,28.529935,77.446885,approved
+ngo,Prana Foundation Mission,seva@pranafoundationmission.org,Gurugram,28.395311,77.064541,approved
+ngo,Helping Hands Movement,seva@helpinghandsmovement.org,Greater Noida,28.426857,77.525783,approved
+ngo,Save Lives Centre,donate@savelivescentre.org,Gurugram,28.370419,77.116042,approved
+ngo,Udaan Foundation Movement,info@udaanfoundationmovemen.org,New Delhi,28.57736,77.244041,approved
+ngo,Vandana Blood Foundation,contact@vandanabloodfoundation.org,New Delhi,28.690386,77.288907,approved
+ngo,Raktadan Organization,info@raktadanorganization.org,New Delhi,28.674234,77.268031,approved
+ngo,Sparsh Foundation Society,care@sparshfoundationsociet.org,Faridabad,28.449087,77.268279,approved
+ngo,Blood Care Project,reach@bloodcareproject.org,Ghaziabad,28.670689,77.388935,approved
+ngo,Maitri Foundation NGO,admin@maitrifoundationngo.org,Ghaziabad,28.670871,77.473482,approved
+ngo,Life Saver Initiative,info@lifesaverinitiative.org,Bahadurgarh,28.657375,76.938763,approved
+ngo,Maitri Foundation Centre,bloodbank@maitrifoundationcentre.org,Faridabad,28.467241,77.317663,approved
+ngo,Umeed Blood Movement,admin@umeedbloodmovement.org,Bahadurgarh,28.744877,76.90207,approved
+ngo,Blood Care Trust,help@bloodcaretrust.org,New Delhi,28.674084,77.211172,approved
+ngo,Jeevan Daan Institute,seva@jeevandaaninstitute.org,Faridabad,28.378683,77.374604,approved
+ngo,Raktadan Alliance,reach@raktadanalliance.org,New Delhi,28.558731,77.092432,approved
+ngo,Sparsh Foundation Association,contact@sparshfoundationassoci.org,Greater Noida,28.467101,77.520859,approved
+ngo,Rahat Foundation Centre,help@rahatfoundationcentre.org,New Delhi,28.604533,77.118335,approved
+ngo,Raktadan Institute,contact@raktadaninstitute.org,Noida,28.637258,77.480528,approved
+ngo,Prasad Blood Centre,info@prasadbloodcentre.org,New Delhi,28.622582,77.120396,approved
+ngo,Sewa Bharti Association,donate@sewabhartiassociation.org,Faridabad,28.470641,77.249041,approved
+ngo,Sahara Blood Foundation,care@saharabloodfoundation.org,Gurugram,28.484351,77.126732,approved
+ngo,Aarogya Movement,support@aarogyamovement.org,Greater Noida,28.599327,77.437702,approved
+ngo,Kripa Blood Initiative,bloodbank@kripabloodinitiative.org,Faridabad,28.389104,77.313745,approved
+ngo,Rahat Foundation Alliance,donate@rahatfoundationallianc.org,New Delhi,28.681772,77.291454,approved
+ngo,Jeevan Raksha Alliance,help@jeevanrakshaalliance.org,New Delhi,28.610847,77.138372,approved
+ngo,Rahat Foundation Project,info@rahatfoundationproject.org,Bahadurgarh,28.733859,76.947889,approved
+ngo,Humanity First Organization,seva@humanityfirstorganizat.org,Faridabad,28.34007,77.32058,approved
+ngo,Humanity First Trust,info@humanityfirsttrust.org,Ghaziabad,28.761894,77.518879,approved
+ngo,Vatsalya Blood Centre,contact@vatsalyabloodcentre.org,New Delhi,28.677978,77.280722,approved
+ngo,Sewa Bharti Foundation,seva@sewabhartifoundation.org,Noida,28.560798,77.435793,approved
+ngo,Swasthya Seva Movement,contact@swasthyasevamovement.org,New Delhi,28.56744,77.203198,approved
+ngo,Sukoon Foundation Network,seva@sukoonfoundationnetwor.org,Bahadurgarh,28.737331,76.903861,approved
+ngo,Jiwan Jyoti Foundation,bloodbank@jiwanjyotifoundation.org,Ghaziabad,28.722794,77.481034,approved
+ngo,Vandana Blood Organization,care@vandanabloodorganizati.org,New Delhi,28.657732,77.197122,approved
+ngo,Sahara Blood NGO,reach@saharabloodngo.org,Ghaziabad,28.651566,77.477857,approved
+ngo,Vishwas Foundation Mission,seva@vishwasfoundationmissi.org,Gurugram,28.46186,77.022271,approved
+ngo,Samarpan Trust Initiative,info@samarpantrustinitiativ.org,Noida,28.598304,77.454833,approved
+ngo,Life Saver Alliance,help@lifesaveralliance.org,Bahadurgarh,28.662222,76.981491,approved
+ngo,Vandana Blood Institute,help@vandanabloodinstitute.org,Gurugram,28.530571,77.124167,approved
+ngo,Shakti Foundation Foundation,care@shaktifoundationfounda.org,Gurugram,28.505621,76.998517,pending
+ngo,Sparsh Foundation Hub,bloodbank@sparshfoundationhub.org,Greater Noida,28.49202,77.480958,pending
+ngo,Sukoon Foundation Centre,care@sukoonfoundationcentre.org,New Delhi,28.561997,77.19105,approved
+ngo,Prana Foundation Foundation,admin@pranafoundationfoundat.org,Faridabad,28.304153,77.341853,approved
+ngo,Jeevan Daan Initiative,admin@jeevandaaninitiative.org,Noida,28.64314,77.327305,approved
+ngo,Anand Foundation Alliance,seva@anandfoundationallianc.org,New Delhi,28.592414,77.063032,approved
+ngo,Raktadan Hub,admin@raktadanhub.org,Faridabad,28.437031,77.361004,approved
+ngo,Sparsh Foundation Trust,help@sparshfoundationtrust.org,Faridabad,28.392896,77.279435,approved
+ngo,Sahara Blood Hub,contact@saharabloodhub.org,Ghaziabad,28.717055,77.350344,approved
+ngo,Raktadan Mission,reach@raktadanmission.org,New Delhi,28.596326,77.157624,approved
+ngo,Naya Jeevan Society,donate@nayajeevansociety.org,New Delhi,28.635695,77.094745,approved
+ngo,Punya Blood Trust,donate@punyabloodtrust.org,New Delhi,28.620715,77.174067,pending
+ngo,Prana Foundation Institute,info@pranafoundationinstitu.org,Noida,28.540946,77.335444,approved
+ngo,Blood Care NGO,donate@bloodcarengo.org,New Delhi,28.559571,77.24738,pending
+ngo,Blood Care Centre,seva@bloodcarecentre.org,Noida,28.581595,77.409762,approved
+ngo,Nishkam Seva Organization,bloodbank@nishkamsevaorganizatio.org,Bahadurgarh,28.681827,76.962872,pending
+ngo,Sanjeevani Hub,contact@sanjeevanihub.org,Noida,28.535864,77.40021,pending
+ngo,Care & Cure Centre,info@careandcurecentre.org,Ghaziabad,28.617363,77.455208,approved
+ngo,Sukoon Foundation Institute,donate@sukoonfoundationinstit.org,Gurugram,28.414875,77.079245,approved
+ngo,Prasad Blood Foundation,seva@prasadbloodfoundation.org,Noida,28.611931,77.470695,approved
+ngo,Asha Kiran NGO,bloodbank@ashakiranngo.org,Ghaziabad,28.671041,77.316029,pending
+ngo,Anand Foundation Movement,admin@anandfoundationmovemen.org,Noida,28.539342,77.468204,approved
+ngo,Nirmal Seva Initiative,reach@nirmalsevainitiative.org,Noida,28.533184,77.328418,pending
+ngo,Shakti Foundation Society,care@shaktifoundationsociet.org,Greater Noida,28.447728,77.443088,approved
+ngo,Blood Care Association,bloodbank@bloodcareassociation.org,Greater Noida,28.472353,77.615904,approved
+ngo,Kripa Blood Movement,donate@kripabloodmovement.org,Noida,28.578203,77.390561,approved
+ngo,Save Lives Initiative,seva@savelivesinitiative.org,Noida,28.609602,77.334903,approved
+ngo,Kripa Blood NGO,reach@kripabloodngo.org,New Delhi,28.624155,77.135024,approved
+ngo,Care & Cure Foundation,reach@careandcurefoundation.org,New Delhi,28.601933,77.197648,approved
+ngo,Aarogya Network,seva@aarogyanetwork.org,Greater Noida,28.418266,77.559036,approved
+ngo,Mamta Blood Movement,admin@mamtabloodmovement.org,New Delhi,28.673572,77.142905,approved
+ngo,Pahal Blood Movement,admin@pahalbloodmovement.org,Greater Noida,28.593957,77.507742,approved
+ngo,Nirmal Seva Society,reach@nirmalsevasociety.org,Noida,28.528741,77.494275,approved
+ngo,Helping Hands Trust,seva@helpinghandstrust.org,Noida,28.55691,77.405163,approved
+ngo,Disha Blood Hub,seva@dishabloodhub.org,Faridabad,28.440189,77.287224,pending
+ngo,Umeed Blood Project,contact@umeedbloodproject.org,New Delhi,28.684076,77.235112,approved
+ngo,Maitri Foundation Network,donate@maitrifoundationnetwor.org,New Delhi,28.61603,77.146872,approved
+ngo,Helping Hands Alliance,contact@helpinghandsalliance.org,New Delhi,28.570341,77.072063,approved
+ngo,Udaan Foundation Project,contact@udaanfoundationproject.org,Ghaziabad,28.710075,77.486982,approved
+ngo,Care & Cure Mission,contact@careandcuremission.org,New Delhi,28.587229,77.184721,approved
+ngo,Asha Kiran Network,admin@ashakirannetwork.org,New Delhi,28.661139,77.177745,approved
+ngo,Asha Kiran Movement,bloodbank@ashakiranmovement.org,New Delhi,28.721328,77.114271,approved
+ngo,Vandana Blood Hub,seva@vandanabloodhub.org,New Delhi,28.681264,77.227469,approved
+ngo,Pahal Blood Mission,contact@pahalbloodmission.org,Faridabad,28.445852,77.201702,approved
+ngo,Nishkam Seva NGO,seva@nishkamsevango.org,Sonipat,28.99373,77.106583,approved
+ngo,Disha Blood Organization,seva@dishabloodorganization.org,Ghaziabad,28.640772,77.350803,approved
+ngo,Save Lives Foundation,help@savelivesfoundation.org,Faridabad,28.472526,77.214386,approved
+ngo,Rahat Foundation Mission,help@rahatfoundationmission.org,New Delhi,28.649643,77.218463,approved
+ngo,Pahal Blood NGO,donate@pahalbloodngo.org,Noida,28.515129,77.319047,approved
+ngo,Blood Care Society,seva@bloodcaresociety.org,Sonipat,28.994045,77.0349,approved
+ngo,Samarpan Trust Institute,help@samarpantrustinstitute.org,Noida,28.546435,77.351608,approved
+ngo,United Blood NGO,donate@unitedbloodngo.org,New Delhi,28.688838,77.099539,approved
+ngo,Naya Jeevan Association,contact@nayajeevanassociation.org,New Delhi,28.700074,77.174138,pending
+ngo,Nirmal Seva Mission,info@nirmalsevamission.org,New Delhi,28.590265,77.167614,approved
+ngo,Prana Foundation Alliance,admin@pranafoundationallianc.org,Gurugram,28.356481,77.069759,pending
+ngo,Blood Bridge Association,care@bloodbridgeassociation.org,Noida,28.567444,77.349479,approved
+ngo,Raksha Setu Movement,info@rakshasetumovement.org,New Delhi,28.694736,77.163746,approved
+ngo,Jeevan Daan Alliance,bloodbank@jeevandaanalliance.org,New Delhi,28.642279,77.058432,approved
+ngo,Jan Seva Institute,help@jansevainstitute.org,New Delhi,28.633065,77.259298,approved
+ngo,Udaan Foundation Network,help@udaanfoundationnetwork.org,Gurugram,28.402256,76.971307,approved

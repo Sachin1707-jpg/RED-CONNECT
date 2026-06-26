@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RedConnect – Request Blood</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root { --red:#C8102E;--red-dark:#9B0D22;--cream:#FFF8F0;--charcoal:#1A1A2E;--grey:#6B7280;--white:#FFFFFF; }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{font-family:'DM Sans',sans-serif;background:var(--cream);color:var(--charcoal);min-height:100vh;display:flex;flex-direction:column;align-items:center;}
+  
+  nav { width:100%;padding:18px 60px;background:rgba(255,248,240,0.95);display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid rgba(200,16,46,0.1); }
+  .nav-logo { display:flex;align-items:center;gap:10px;text-decoration:none; }
+  .drop { width:30px;height:30px;background:var(--red);border-radius:50% 50% 50% 0;transform:rotate(-45deg); }
+  .nav-logo span { font-family:'Playfair Display',serif;font-size:1.4rem;font-weight:700;color:var(--red); }
+  .back-link { font-weight:600;color:var(--charcoal);text-decoration:none;font-size:0.95rem;transition:color 0.2s; }
+  .back-link:hover { color:var(--red); }
+
+  .container { width:100%;max-width:700px;margin:60px auto;padding:0 20px; }
+  .card { background:var(--white);border-radius:24px;padding:40px;box-shadow:0 20px 60px rgba(200,16,46,0.08);border:1px solid rgba(200,16,46,0.1); }
+  
+  .header { text-align:center;margin-bottom:40px; }
+  .title { font-family:'Playfair Display',serif;font-size:2.5rem;font-weight:900;color:var(--charcoal);margin-bottom:10px; }
+  .title span { color:var(--red); }
+  .subtitle { color:var(--grey);font-size:1.05rem;line-height:1.6; }
+
+  .form-group { margin-bottom:24px; }
+  .form-row { display:grid;grid-template-columns:1fr 1fr;gap:20px; }
+  label { display:block;font-weight:600;font-size:0.9rem;margin-bottom:8px;color:var(--charcoal); }
+  input, select, textarea {
+    width:100%;padding:14px 18px;border-radius:12px;border:2px solid rgba(0,0,0,0.1);
+    background:#fafafa;font-family:'DM Sans',sans-serif;font-size:0.95rem;
+    transition:border-color 0.2s,box-shadow 0.2s;outline:none;
+  }
+  input:focus, select:focus, textarea:focus { border-color:var(--red);background:#fff;box-shadow:0 0 0 4px rgba(200,16,46,0.08); }
+  
+  .btn-submit {
+    width:100%;padding:16px;background:var(--red);color:var(--white);border:none;
+    border-radius:12px;font-family:'DM Sans',sans-serif;font-size:1.05rem;
+    font-weight:700;cursor:pointer;transition:all 0.3s;margin-top:10px;
+    box-shadow:0 8px 24px rgba(200,16,46,0.3);
+  }
+  .btn-submit:hover { background:var(--red-dark);transform:translateY(-2px);box-shadow:0 12px 30px rgba(200,16,46,0.4); }
+  
+  .toast { position:fixed;bottom:30px;right:30px;background:var(--charcoal);color:var(--white);padding:16px 24px;border-radius:12px;font-size:0.95rem;font-weight:600;opacity:0;transform:translateY(20px);transition:all 0.3s;z-index:999;border-left:4px solid #10b981; }
+  .toast.show { opacity:1;transform:translateY(0); }
+
+  @media(max-width:768px){ .form-row{grid-template-columns:1fr;} .card{padding:30px 20px;} nav{padding:16px 24px;} }
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="index.html" class="nav-logo"><div class="drop"></div><span>RedConnect</span></a>
+  <a href="index.html" class="back-link">← Cancel</a>
+</nav>
+
+<div class="container">
+  <div class="card">
+    <div class="header">
+      <h1 class="title">Request <span>Blood</span></h1>
+      <p class="subtitle">Fill out the details below. Our smart matching system will instantly notify compatible donors near your hospital.</p>
+    </div>
+    
+    <form id="bloodRequestForm" onsubmit="submitRequest(event)">
+      <div class="form-row">
+        <div class="form-group">
+          <label>Patient Full Name</label>
+          <input type="text" id="patientName" placeholder="e.g. Ramesh Kumar" required>
+        </div>
+        <div class="form-group">
+          <label>Blood Group Needed</label>
+          <select id="bloodGroup" required>
+            <option value="">Select Blood Group</option>
+            <option value="O+">O+</option><option value="O-">O-</option>
+            <option value="A+">A+</option><option value="A-">A-</option>
+            <option value="B+">B+</option><option value="B-">B-</option>
+            <option value="AB+">AB+</option><option value="AB-">AB-</option>
+          </select>
+        </div>
+      </div>
+      
+      <div class="form-row">
+        <div class="form-group">
+          <label>Units Required</label>
+          <input type="number" id="units" min="1" max="10" value="1" required>
+        </div>
+        <div class="form-group">
+          <label>Urgency Level</label>
+          <select id="urgency" required>
+            <option value="normal">Normal (Within 48 hrs)</option>
+            <option value="urgent">Urgent (Within 24 hrs)</option>
+            <option value="critical" style="color:var(--red);font-weight:bold;">Critical (Immediate)</option>
+          </select>
+        </div>
+      </div>
+      
+      <div class="form-group">
+        <label>Hospital Name & Address</label>
+        <input type="text" id="hospital" placeholder="e.g. AIIMS Trauma Center, New Delhi" required>
+      </div>
+      
+      <div class="form-row">
+        <div class="form-group">
+          <label>City</label>
+          <select id="city" required>
+            <option value="">Select City</option>
+            <option value="New Delhi">New Delhi</option>
+            <option value="Gurugram">Gurugram</option>
+            <option value="Noida">Noida</option>
+            <option value="Faridabad">Faridabad</option>
+            <option value="Ghaziabad">Ghaziabad</option>
+            <option value="Other">Other Location</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Contact Phone Number</label>
+          <input type="tel" id="phone" placeholder="10-digit mobile number" required pattern="[0-9]{10}">
+        </div>
+      </div>
+      
+      <div class="form-group" style="margin-top:10px;">
+        <label style="display:flex;align-items:center;gap:10px;cursor:pointer;font-weight:normal;font-size:0.9rem;color:var(--grey);">
+          <input type="checkbox" required style="width:auto;padding:0;margin:0;">
+          I confirm that this is a genuine medical emergency and the details provided are accurate.
+        </label>
+      </div>
+      
+      <button type="submit" class="btn-submit" id="submitBtn">Broadcast Blood Request 🚨</button>
+    </form>
+  </div>
+</div>
+
+<div class="toast" id="toast">✅ Blood Request Broadcasted Successfully! Redirecting...</div>
+
+<script>
+  const API = 'http://localhost:8000/api';
+
+  async function submitRequest(e) {
+    e.preventDefault();
+    const btn = document.getElementById('submitBtn');
+    btn.textContent = 'Broadcasting...';
+    btn.disabled = true;
+    
+    const body = {
+      patientName: document.getElementById('patientName').value,
+      bloodGroup: document.getElementById('bloodGroup').value,
+      units: parseInt(document.getElementById('units').value),
+      urgency: document.getElementById('urgency').value,
+      priority: document.getElementById('urgency').value,
+      hospitalName: document.getElementById('hospital').value,
+      city: document.getElementById('city').value,
+      contactPhone: document.getElementById('phone').value,
+      status: 'pending',
+      latitude: 28.6139, // Default fallback
+      longitude: 77.2090
+    };
+
+    try {
+      await fetch(`${API}/requests`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(body)
+      });
+    } catch(err) {
+      console.log('Using demo mode (API unavailable)');
+    }
+
+    setTimeout(() => {
+      document.getElementById('toast').classList.add('show');
+      setTimeout(() => {
+        window.location.href = 'index.html';
+      }, 3000);
+    }, 800);
+  }
+</script>
+
+</body>
+</html>

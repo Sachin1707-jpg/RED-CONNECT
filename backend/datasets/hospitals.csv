@@ -1,0 +1,501 @@
+role,name,email,city,lat,lng,status
+hospital,Max Super Speciality Hospital Noida,support@maxsuperspecialityhospitalno.org,Noida,28.558147,77.472893,approved
+hospital,Navneet Multi Speciality Hospital Faridabad,info@navneetmultispecialityhospit.in,Faridabad,28.432273,77.370258,approved
+hospital,Prakash Multi Speciality Hospital,reception@prakashmultispecialityhospit.com,Noida,28.591098,77.30465,approved
+hospital,Ram Manohar Clinic & Hospital Gurugram,support@rammanoharclinicandhospitalg.org,Gurugram,28.542212,77.011948,approved
+hospital,Goyal Nursing Home Gurugram,admin@goyalnursinghomegurugram.in,Gurugram,28.361297,76.963757,approved
+hospital,Niraamaya Hospital Faridabad,reception@niraamayahospitalfaridabad.net,Faridabad,28.306432,77.38009,pending
+hospital,Nayati Super Speciality Hospital,contact@nayatisuperspecialityhospita.com,Gurugram,28.521513,77.018932,approved
+hospital,Fortis Medical Centre,support@fortismedicalcentre.in,Sonipat,28.99845,77.121826,approved
+hospital,Lal Bahadur Healthcare,info@lalbahadurhealthcare.net,New Delhi,28.552465,77.095485,approved
+hospital,Bindal Clinic & Hospital Noida,contact@bindalclinicandhospitalnoida.org,Noida,28.619941,77.331357,approved
+hospital,Subham Healthcare,care@subhamhealthcare.org,Noida,28.60706,77.448843,approved
+hospital,Navneet Hospital Ghaziabad,info@navneethospitalghaziabad.com,Ghaziabad,28.776711,77.304401,approved
+hospital,Jai Prakash Medical Institute New Delhi,help@jaiprakashmedicalinstitutene.org,New Delhi,28.674131,77.117209,approved
+hospital,Narayana Superspeciality Hospital Gurugram,help@narayanasuperspecialityhospi.com,Gurugram,28.549612,77.060972,approved
+hospital,Venkateshwar Hospital,support@venkateshwarhospital.net,New Delhi,28.648308,77.187608,approved
+hospital,National Hospital Bahadurgarh,support@nationalhospitalbahadurgarh.org,Bahadurgarh,28.68026,76.947721,pending
+hospital,District Health Institute,care@districthealthinstitute.org,Sonipat,29.054542,77.001551,pending
+hospital,Yashoda Hospital Ghaziabad,info@yashodahospitalghaziabad.net,Ghaziabad,28.619792,77.543794,approved
+hospital,Prime Healthcare Noida,support@primehealthcarenoida.net,Noida,28.612723,77.495078,approved
+hospital,National Healthcare,support@nationalhealthcare.net,Noida,28.575892,77.310367,approved
+hospital,Mahajan Nursing Home,admin@mahajannursinghome.com,Ghaziabad,28.771558,77.501109,approved
+hospital,Yashoda Nursing Home,contact@yashodanursinghome.net,Gurugram,28.35433,77.058528,approved
+hospital,District Healthcare,info@districthealthcare.net,Greater Noida,28.5221,77.52182,approved
+hospital,Indraprastha Hospital New Delhi,support@indraprasthahospitalnewdelhi.com,New Delhi,28.641723,77.209921,approved
+hospital,Deen Dayal Healthcare Ghaziabad,help@deendayalhealthcareghaziabad.in,Ghaziabad,28.631876,77.412113,pending
+hospital,Shiv Multi Speciality Hospital Faridabad,reception@shivmultispecialityhospitalf.in,Faridabad,28.441896,77.24122,approved
+hospital,Asian Medical Centre New Delhi,admin@asianmedicalcentrenewdelhi.in,New Delhi,28.662929,77.26451,approved
+hospital,City Hospital Greater Noida,help@cityhospitalgreaternoida.net,Greater Noida,28.487376,77.554273,approved
+hospital,Shree Healthcare New Delhi,reception@shreehealthcarenewdelhi.net,New Delhi,28.556015,77.262718,approved
+hospital,Care Healthcare New Delhi,admin@carehealthcarenewdelhi.net,New Delhi,28.730447,77.118602,approved
+hospital,QRG Nursing Home,reception@qrgnursinghome.net,Ghaziabad,28.686438,77.545725,approved
+hospital,Holy Family Hospital,contact@holyfamilyhospital.net,New Delhi,28.660401,77.13573,approved
+hospital,QRG Eye & General Hospital,support@qrgeyeandgeneralhospital.com,Ghaziabad,28.759452,77.405748,approved
+hospital,Subham Eye & General Hospital,info@subhameyeandgeneralhospital.com,Noida,28.648842,77.348814,approved
+hospital,Max Health Institute,care@maxhealthinstitute.com,New Delhi,28.689709,77.299137,approved
+hospital,Ram Manohar Hospital,contact@rammanoharhospital.in,Noida,28.599642,77.481495,pending
+hospital,Pushpanjali Speciality Hospital Ghaziabad,info@pushpanjalispecialityhospita.org,Ghaziabad,28.671638,77.503953,approved
+hospital,Sarvodaya Hospital Faridabad,reception@sarvodayahospitalfaridabad.net,Faridabad,28.485631,77.239758,approved
+hospital,Rockland Nursing Home,care@rocklandnursinghome.com,Noida,28.547594,77.360258,approved
+hospital,Metro Healthcare,reception@metrohealthcare.net,Sonipat,28.988573,77.075026,pending
+hospital,Apollo General Hospital,care@apollogeneralhospital.in,Noida,28.617874,77.464884,pending
+hospital,Balaji Clinic & Hospital,admin@balajiclinicandhospital.org,Noida,28.607509,77.452274,approved
+hospital,Prakash Hospital Ghaziabad,help@prakashhospitalghaziabad.net,Ghaziabad,28.711657,77.528236,approved
+hospital,Primus Super Speciality Hospital,info@primussuperspecialityhospita.in,New Delhi,28.586135,77.092523,approved
+hospital,Balaji Multi Speciality Hospital New Delhi,care@balajimultispecialityhospita.net,New Delhi,28.594679,77.250761,approved
+hospital,Suresh Medical Centre New Delhi,contact@sureshmedicalcentrenewdelhi.org,New Delhi,28.634264,77.235286,approved
+hospital,Fortis Hospital Noida,care@fortishospitalnoida.net,Noida,28.602472,77.450327,approved
+hospital,BLK-Max Medical College Hospital,contact@blkmaxmedicalcollegehospital.net,Greater Noida,28.402141,77.532472,approved
+hospital,Asian Clinic & Hospital,contact@asianclinicandhospital.in,Ghaziabad,28.695211,77.494739,pending
+hospital,Samarth Hospital Ghaziabad,contact@samarthhospitalghaziabad.in,Ghaziabad,28.642743,77.310119,approved
+hospital,Santosh Medical Institute Noida,admin@santoshmedicalinstitutenoida.net,Noida,28.584987,77.300086,approved
+hospital,Accord Healthcare,support@accordhealthcare.com,New Delhi,28.615734,77.165494,approved
+hospital,Divine Medical College Hospital,admin@divinemedicalcollegehospital.org,Greater Noida,28.560501,77.602834,approved
+hospital,Jeevan Hospital New Delhi,admin@jeevanhospitalnewdelhi.net,New Delhi,28.674358,77.065776,approved
+hospital,City Nursing Home Gurugram,contact@citynursinghomegurugram.in,Gurugram,28.413621,77.009023,approved
+hospital,Care General Hospital,admin@caregeneralhospital.com,Greater Noida,28.463349,77.547416,approved
+hospital,Dharam Super Speciality Hospital,info@dharamsuperspecialityhospita.in,Sonipat,29.076381,77.022925,approved
+hospital,Kalawati Hospital Faridabad,contact@kalawatihospitalfaridabad.com,Faridabad,28.397584,77.307505,approved
+hospital,Sarvodaya Clinic & Hospital,info@sarvodayaclinicandhospital.net,New Delhi,28.721042,77.171784,approved
+hospital,Saraswati Speciality Hospital,admin@saraswatispecialityhospital.org,New Delhi,28.669194,77.070565,approved
+hospital,QRG Hospital Bahadurgarh,info@qrghospitalbahadurgarh.org,Bahadurgarh,28.705175,76.988378,approved
+hospital,Balaji Super Speciality Hospital,help@balajisuperspecialityhospita.in,Faridabad,28.465006,77.364655,approved
+hospital,Fortis Escorts Heart Institute,admin@fortisescortsheartinstitute.net,New Delhi,28.603141,77.25853,approved
+hospital,Divine Health Institute,admin@divinehealthinstitute.com,Noida,28.583513,77.401666,approved
+hospital,Central Medical Centre,care@centralmedicalcentre.net,Noida,28.626686,77.349276,approved
+hospital,Indraprastha Multi Speciality Hospital,support@indraprasthamultispecialityh.in,New Delhi,28.676432,77.254627,approved
+hospital,Ram Manohar Hospital Ghaziabad,care@rammanoharhospitalghaziabad.org,Ghaziabad,28.736341,77.361374,approved
+hospital,Samvedna Hospital Faridabad,care@samvednahospitalfaridabad.in,Faridabad,28.338651,77.228206,approved
+hospital,National Nursing Home Noida,support@nationalnursinghomenoida.org,Noida,28.5895,77.458968,pending
+hospital,Sarvodaya Medical Centre Gurugram,reception@sarvodayamedicalcentregurugr.org,Gurugram,28.539733,76.955016,approved
+hospital,Lal Bahadur Shastri Hospital,support@lalbahadurshastrihospital.net,New Delhi,28.740566,77.27486,approved
+hospital,Divine Nursing Home,contact@divinenursinghome.com,Bahadurgarh,28.681037,76.992005,approved
+hospital,Accord Medical Institute New Delhi,reception@accordmedicalinstitutenewdel.org,New Delhi,28.60224,77.261147,approved
+hospital,Subham Medical Centre,admin@subhammedicalcentre.net,Greater Noida,28.598,77.462842,approved
+hospital,Central Health Institute Ghaziabad,care@centralhealthinstituteghazia.org,Ghaziabad,28.641134,77.5364,approved
+hospital,Saraswati Clinic & Hospital New Delhi,help@saraswaticlinicandhospitalne.com,New Delhi,28.638268,77.052166,approved
+hospital,Max Multi Speciality Hospital Faridabad,help@maxmultispecialityhospitalfa.org,Faridabad,28.462164,77.26953,approved
+hospital,Shree Medical Centre,admin@shreemedicalcentre.com,Greater Noida,28.431377,77.519259,approved
+hospital,City Clinic & Hospital,reception@cityclinicandhospital.net,Gurugram,28.389675,77.01736,approved
+hospital,Suresh Super Speciality Hospital Ghaziabad,support@sureshsuperspecialityhospita.com,Ghaziabad,28.65699,77.345045,approved
+hospital,Lifecare General Hospital,reception@lifecaregeneralhospital.org,Gurugram,28.3569,77.023923,pending
+hospital,Divine General Hospital Gurugram,support@divinegeneralhospitalgurugra.net,Gurugram,28.377453,77.147353,approved
+hospital,Ram Manohar Multi Speciality Hospital Ghaziabad,info@rammanoharmultispecialityhos.net,Ghaziabad,28.649967,77.385925,approved
+hospital,RML Hospital,support@rmlhospital.org,New Delhi,28.749512,77.234672,approved
+hospital,Ram Manohar Super Speciality Hospital,contact@rammanoharsuperspecialityhos.org,Ghaziabad,28.703376,77.487137,approved
+hospital,Santosh Healthcare Sonipat,support@santoshhealthcaresonipat.net,Sonipat,29.019491,77.136129,approved
+hospital,Bindal General Hospital Gurugram,support@bindalgeneralhospitalgurugra.net,Gurugram,28.485835,76.972046,approved
+hospital,Kalyani Eye & General Hospital,reception@kalyanieyeandgeneralhospital.net,Noida,28.526366,77.409361,approved
+hospital,Accord Hospital Ghaziabad,admin@accordhospitalghaziabad.net,Ghaziabad,28.738172,77.481954,approved
+hospital,Care General Hospital Noida,support@caregeneralhospitalnoida.net,Noida,28.525817,77.429062,approved
+hospital,Medanta Super Speciality Hospital,support@medantasuperspecialityhospit.in,New Delhi,28.691761,77.203042,approved
+hospital,Mahajan General Hospital,info@mahajangeneralhospital.com,Faridabad,28.448698,77.348398,approved
+hospital,Lal Bahadur Clinic & Hospital,help@lalbahadurclinicandhospital.com,Noida,28.646251,77.462622,approved
+hospital,Ram Manohar Medical Institute Noida,help@rammanoharmedicalinstituteno.org,Noida,28.506936,77.487401,approved
+hospital,General Hospital Sonipat,help@generalhospitalsonipat.org,Sonipat,28.971394,77.060274,approved
+hospital,Columbia Asia Hospital Noida,care@columbiaasiahospitalnoida.org,Noida,28.570632,77.402601,approved
+hospital,Columbia Asia Multi Speciality Hospital Gurugram,info@columbiaasiamultispecialityh.net,Gurugram,28.364096,77.000414,approved
+hospital,Jai Prakash Multi Speciality Hospital Gurugram,info@jaiprakashmultispecialityhos.net,Gurugram,28.402607,77.024697,approved
+hospital,Yatharth Hospital Greater Noida,help@yatharthhospitalgreaternoida.org,Greater Noida,28.462523,77.477933,approved
+hospital,Deen Dayal Medical College Hospital,info@deendayalmedicalcollegehospi.com,Gurugram,28.364136,76.997328,approved
+hospital,Columbia Asia Multi Speciality Hospital,help@columbiaasiamultispecialityh.org,New Delhi,28.643204,77.071785,approved
+hospital,Asian Hospital Ghaziabad,care@asianhospitalghaziabad.org,Ghaziabad,28.741445,77.411033,approved
+hospital,Sir Ganga Ram Hospital,admin@sirgangaramhospital.net,New Delhi,28.578984,77.23783,pending
+hospital,Medanta Medical Institute New Delhi,contact@medantamedicalinstitutenewde.net,New Delhi,28.590891,77.233554,approved
+hospital,Care Medical Centre Sonipat,support@caremedicalcentresonipat.org,Sonipat,29.003884,77.130338,approved
+hospital,Regional Healthcare,support@regionalhealthcare.in,New Delhi,28.732079,77.197385,approved
+hospital,Shree Health Institute Ghaziabad,reception@shreehealthinstituteghaziaba.in,Ghaziabad,28.705727,77.458989,approved
+hospital,Primus Nursing Home,reception@primusnursinghome.org,Noida,28.50286,77.34355,pending
+hospital,Dharam Nursing Home,help@dharamnursinghome.in,Faridabad,28.454604,77.21631,approved
+hospital,National Medical Centre New Delhi,reception@nationalmedicalcentrenewdelh.org,New Delhi,28.602837,77.098158,approved
+hospital,Balaji Nursing Home Noida,support@balajinursinghomenoida.in,Noida,28.562676,77.478361,approved
+hospital,Holy Family Multi Speciality Hospital,care@holyfamilymultispecialityhos.in,Faridabad,28.417071,77.3947,approved
+hospital,Accord Speciality Hospital,care@accordspecialityhospital.in,New Delhi,28.737803,77.072406,approved
+hospital,Mayom Medical Institute,info@mayommedicalinstitute.com,Greater Noida,28.595313,77.490219,approved
+hospital,Jaypee Health Institute Noida,info@jaypeehealthinstitutenoida.org,Noida,28.524892,77.322195,approved
+hospital,Kalyani Clinic & Hospital,reception@kalyaniclinicandhospital.net,New Delhi,28.647704,77.116313,approved
+hospital,Asian Medical Centre,contact@asianmedicalcentre.net,New Delhi,28.667739,77.083436,approved
+hospital,City General Hospital Noida,reception@citygeneralhospitalnoida.net,Noida,28.626902,77.449618,approved
+hospital,Kalyani Hospital Faridabad,support@kalyanihospitalfaridabad.net,Faridabad,28.324649,77.376112,approved
+hospital,Ganesh Medical Institute Bahadurgarh,contact@ganeshmedicalinstitutebahadu.com,Bahadurgarh,28.703124,77.03004,approved
+hospital,Columbia Asia Medical College Hospital Gurugram,admin@columbiaasiamedicalcollegeho.org,Gurugram,28.532361,77.125572,approved
+hospital,AIIMS Delhi,info@aiimsdelhi.net,New Delhi,28.677,77.169775,approved
+hospital,Ram Manohar Eye & General Hospital Ghaziabad,info@rammanohareyeandgeneralhospi.org,Ghaziabad,28.727186,77.461463,pending
+hospital,Santosh Medical College Hospital,info@santoshmedicalcollegehospita.org,Greater Noida,28.415903,77.475651,pending
+hospital,Prakash Hospital Noida,admin@prakashhospitalnoida.in,Noida,28.604917,77.405157,approved
+hospital,Mother Medical Institute,contact@mothermedicalinstitute.net,Greater Noida,28.435163,77.539524,approved
+hospital,Accord Clinic & Hospital,help@accordclinicandhospital.com,Faridabad,28.409178,77.290735,approved
+hospital,Samarth Speciality Hospital,help@samarthspecialityhospital.com,New Delhi,28.709304,77.107101,approved
+hospital,Regional Medical College Hospital,help@regionalmedicalcollegehospit.net,Noida,28.560328,77.46841,approved
+hospital,Accord Medical Institute Noida,reception@accordmedicalinstitutenoida.net,Noida,28.598308,77.371561,approved
+hospital,Aakash Healthcare,support@aakashhealthcare.com,New Delhi,28.733557,77.090772,approved
+hospital,Fortis Memorial Research Institute,reception@fortismemorialresearchinstit.in,Gurugram,28.532641,76.98467,approved
+hospital,Civil Hospital Bahadurgarh,contact@civilhospitalbahadurgarh.com,Bahadurgarh,28.712852,76.918343,approved
+hospital,Sanjeevan Healthcare,reception@sanjeevanhealthcare.com,Greater Noida,28.456398,77.571869,approved
+hospital,Kalawati Eye & General Hospital New Delhi,care@kalawatieyeandgeneralhospita.net,New Delhi,28.562758,77.250893,approved
+hospital,District Multi Speciality Hospital,care@districtmultispecialityhospi.net,Noida,28.602698,77.345557,approved
+hospital,Prakash Medical Institute,help@prakashmedicalinstitute.org,New Delhi,28.679381,77.250824,approved
+hospital,Jeevan Clinic & Hospital,support@jeevanclinicandhospital.org,New Delhi,28.741328,77.261993,approved
+hospital,Manipal Speciality Hospital Greater Noida,contact@manipalspecialityhospitalgre.com,Greater Noida,28.418308,77.447846,approved
+hospital,Columbia Asia Health Institute,contact@columbiaasiahealthinstitute.com,New Delhi,28.62826,77.237041,approved
+hospital,Bhagat Hospital Sonipat,help@bhagathospitalsonipat.com,Sonipat,29.001728,77.023159,approved
+hospital,Lal Bahadur Hospital Noida,reception@lalbahadurhospitalnoida.com,Noida,28.576972,77.482808,approved
+hospital,Divine Eye & General Hospital New Delhi,contact@divineeyeandgeneralhospitaln.com,New Delhi,28.703995,77.07965,approved
+hospital,Saraswati General Hospital,reception@saraswatigeneralhospital.net,New Delhi,28.679128,77.073351,approved
+hospital,Suresh Health Institute,admin@sureshhealthinstitute.org,New Delhi,28.629685,77.214036,approved
+hospital,Artemis Speciality Hospital Faridabad,info@artemisspecialityhospitalfar.in,Faridabad,28.359189,77.217393,approved
+hospital,Jaypee Healthcare Faridabad,help@jaypeehealthcarefaridabad.org,Faridabad,28.446013,77.369117,approved
+hospital,Accord Superspeciality Hospital,support@accordsuperspecialityhospita.com,Gurugram,28.425375,77.028722,approved
+hospital,QRG Nursing Home Faridabad,reception@qrgnursinghomefaridabad.org,Faridabad,28.465709,77.322957,approved
+hospital,Sarvodaya Medical College Hospital,admin@sarvodayamedicalcollegehospi.com,Ghaziabad,28.652691,77.406126,approved
+hospital,Asian Nursing Home,support@asiannursinghome.net,Greater Noida,28.497089,77.631054,approved
+hospital,Apollo Medical College Hospital,care@apollomedicalcollegehospital.net,Noida,28.524878,77.350156,approved
+hospital,BLK-Max Hospital,support@blkmaxhospital.in,New Delhi,28.580963,77.254377,approved
+hospital,Jeevan Super Speciality Hospital Greater Noida,admin@jeevansuperspecialityhospita.org,Greater Noida,28.593238,77.600147,approved
+hospital,Nayati Multi Speciality Hospital Noida,care@nayatimultispecialityhospita.org,Noida,28.542894,77.3798,approved
+hospital,Shiv Hospital New Delhi,admin@shivhospitalnewdelhi.in,New Delhi,28.650974,77.266814,approved
+hospital,Batra General Hospital,support@batrageneralhospital.com,Ghaziabad,28.608215,77.499134,approved
+hospital,Ganesh Medical College Hospital,care@ganeshmedicalcollegehospital.in,Sonipat,29.065147,77.022692,approved
+hospital,Central Medical Institute,admin@centralmedicalinstitute.net,New Delhi,28.565933,77.10935,approved
+hospital,Shree Medical Institute Gurugram,contact@shreemedicalinstitutegurugra.org,Gurugram,28.444212,77.012477,approved
+hospital,Mayom Medical Institute Noida,admin@mayommedicalinstitutenoida.org,Noida,28.518548,77.484997,approved
+hospital,Kalawati Clinic & Hospital Gurugram,contact@kalawaticlinicandhospitalgur.in,Gurugram,28.405975,76.980736,approved
+hospital,Prakash Eye & General Hospital,support@prakasheyeandgeneralhospital.org,Greater Noida,28.435409,77.489299,approved
+hospital,Narayana Healthcare Faridabad,info@narayanahealthcarefaridabad.org,Faridabad,28.483075,77.297853,approved
+hospital,Jai Prakash Medical Institute,info@jaiprakashmedicalinstitute.com,Ghaziabad,28.792546,77.383367,approved
+hospital,Motherhood Hospital Noida,contact@motherhoodhospitalnoida.com,Noida,28.507323,77.386783,approved
+hospital,Jaypee Hospital Noida,help@jaypeehospitalnoida.com,Noida,28.6301,77.431065,approved
+hospital,Niraamaya Clinic & Hospital Ghaziabad,contact@niraamayaclinicandhospitalgh.net,Ghaziabad,28.714703,77.495453,pending
+hospital,Deen Dayal Clinic & Hospital Noida,care@deendayalclinicandhospitalno.in,Noida,28.617367,77.32791,approved
+hospital,Ram Manohar Multi Speciality Hospital,care@rammanoharmultispecialityhos.org,Ghaziabad,28.761246,77.364181,approved
+hospital,Sharda Medical Centre,reception@shardamedicalcentre.org,New Delhi,28.571532,77.090662,approved
+hospital,Balaji Hospital,reception@balajihospital.in,New Delhi,28.646309,77.133687,approved
+hospital,Apollo Nursing Home,info@apollonursinghome.org,Noida,28.532135,77.473695,approved
+hospital,Shree Healthcare,help@shreehealthcare.org,Sonipat,29.025487,77.103552,approved
+hospital,Primus Super Speciality Hospital Faridabad,admin@primussuperspecialityhospita.com,Faridabad,28.448532,77.368331,approved
+hospital,Goyal Hospital Ghaziabad,admin@goyalhospitalghaziabad.in,Ghaziabad,28.63242,77.44632,approved
+hospital,Balaji Hospital Ghaziabad,care@balajihospitalghaziabad.net,Ghaziabad,28.735845,77.46903,approved
+hospital,Central Medical Institute New Delhi,admin@centralmedicalinstitutenewde.in,New Delhi,28.645949,77.117673,approved
+hospital,Jai Hospital Greater Noida,support@jaihospitalgreaternoida.in,Greater Noida,28.528315,77.570408,approved
+hospital,Ganesh General Hospital,support@ganeshgeneralhospital.com,Ghaziabad,28.769258,77.53226,approved
+hospital,Paras Hospital Gurugram,contact@parashospitalgurugram.net,Gurugram,28.386466,77.144898,approved
+hospital,Metro Hospital Noida,care@metrohospitalnoida.in,Noida,28.57408,77.343922,approved
+hospital,Deen Dayal Health Institute,admin@deendayalhealthinstitute.in,Bahadurgarh,28.73756,76.919637,pending
+hospital,Ujala Medical College Hospital,support@ujalamedicalcollegehospital.org,Gurugram,28.438073,77.052978,approved
+hospital,Mahajan Healthcare Ghaziabad,info@mahajanhealthcareghaziabad.com,Ghaziabad,28.730751,77.43957,approved
+hospital,QRG Medical Institute,reception@qrgmedicalinstitute.in,Noida,28.617266,77.385138,approved
+hospital,Accord Health Institute,support@accordhealthinstitute.net,Noida,28.521726,77.408726,approved
+hospital,Aakash General Hospital,contact@aakashgeneralhospital.org,Noida,28.535645,77.434881,approved
+hospital,Prakash Eye & General Hospital Faridabad,reception@prakasheyeandgeneralhospital.net,Faridabad,28.335855,77.283117,approved
+hospital,Dharam Healthcare,help@dharamhealthcare.in,Noida,28.64797,77.49856,approved
+hospital,Sarvodaya Hospital,info@sarvodayahospital.org,Noida,28.608018,77.392565,approved
+hospital,District Medical Centre,info@districtmedicalcentre.com,Noida,28.510447,77.374783,approved
+hospital,Batra Eye & General Hospital New Delhi,admin@batraeyeandgeneralhospitalne.com,New Delhi,28.650074,77.102642,approved
+hospital,City Multi Speciality Hospital Faridabad,contact@citymultispecialityhospitalf.org,Faridabad,28.426435,77.305919,pending
+hospital,Saraswati Medical College Hospital,info@saraswatimedicalcollegehospi.in,Ghaziabad,28.659598,77.456777,approved
+hospital,Sharda Medical Institute Noida,admin@shardamedicalinstitutenoida.org,Noida,28.580868,77.49055,approved
+hospital,Greater Noida Medical College,help@greaternoidamedicalcollege.com,Greater Noida,28.407486,77.443212,approved
+hospital,Lifecare Medical Institute,contact@lifecaremedicalinstitute.in,Ghaziabad,28.640007,77.512786,approved
+hospital,Jai Prakash Clinic & Hospital New Delhi,admin@jaiprakashclinicandhospitaln.in,New Delhi,28.690911,77.256147,approved
+hospital,Prime Nursing Home,support@primenursinghome.in,Noida,28.540053,77.417386,approved
+hospital,Aakash Eye & General Hospital,info@aakasheyeandgeneralhospital.com,New Delhi,28.696985,77.262376,approved
+hospital,Medanta Health Institute,care@medantahealthinstitute.in,New Delhi,28.646256,77.290462,pending
+hospital,Central General Hospital Noida,care@centralgeneralhospitalnoida.net,Noida,28.539541,77.462299,approved
+hospital,QRG Health City Faridabad,reception@qrghealthcityfaridabad.org,Faridabad,28.349742,77.225977,approved
+hospital,Max Super Speciality Hospital Saket,admin@maxsuperspecialityhospitalsa.com,New Delhi,28.608397,77.288627,approved
+hospital,Navneet Medical Institute,support@navneetmedicalinstitute.net,Bahadurgarh,28.729669,76.966381,approved
+hospital,Metro Nursing Home Noida,contact@metronursinghomenoida.net,Noida,28.5744,77.369312,approved
+hospital,Suncity Medical Institute,support@suncitymedicalinstitute.org,Ghaziabad,28.780046,77.505515,approved
+hospital,Care Nursing Home,care@carenursinghome.com,Sonipat,28.951289,77.06399,approved
+hospital,Saraswati Medical Institute Gurugram,info@saraswatimedicalinstitutegur.com,Gurugram,28.532505,77.128333,approved
+hospital,Kalyani Medical College Hospital New Delhi,care@kalyanimedicalcollegehospita.net,New Delhi,28.632043,77.09832,approved
+hospital,Shiv Nursing Home New Delhi,help@shivnursinghomenewdelhi.org,New Delhi,28.569567,77.072573,approved
+hospital,W Pratiksha Hospital,support@wpratikshahospital.in,Gurugram,28.389386,76.995454,approved
+hospital,Samarth Hospital Sonipat,admin@samarthhospitalsonipat.in,Sonipat,28.99489,77.144683,approved
+hospital,Niraamaya Medical Centre,reception@niraamayamedicalcentre.org,Ghaziabad,28.683717,77.345851,approved
+hospital,Dharam Clinic & Hospital Noida,info@dharamclinicandhospitalnoida.net,Noida,28.506934,77.465169,approved
+hospital,QRG Medical Centre,contact@qrgmedicalcentre.org,Greater Noida,28.512632,77.415641,pending
+hospital,Columbia Asia Eye & General Hospital,reception@columbiaasiaeyeandgeneralhos.org,Greater Noida,28.521262,77.407934,approved
+hospital,Rockland Medical Centre,reception@rocklandmedicalcentre.com,Ghaziabad,28.750546,77.518778,approved
+hospital,Samvedna Multi Speciality Hospital,contact@samvednamultispecialityhospi.net,Sonipat,29.035297,77.117466,approved
+hospital,Metro Medical College Hospital,reception@metromedicalcollegehospital.org,Ghaziabad,28.748809,77.376663,approved
+hospital,Aakash Hospital,help@aakashhospital.in,Ghaziabad,28.628769,77.365142,approved
+hospital,Regional Medical Centre,support@regionalmedicalcentre.com,Sonipat,29.033695,77.096714,approved
+hospital,Shiv Hospital Sonipat,support@shivhospitalsonipat.net,Sonipat,29.015867,77.034871,approved
+hospital,BLK-Max Speciality Hospital Ghaziabad,care@blkmaxspecialityhospitalghaz.net,Ghaziabad,28.70547,77.370097,approved
+hospital,Prime Multi Speciality Hospital Gurugram,reception@primemultispecialityhospital.org,Gurugram,28.549872,77.121864,approved
+hospital,Suresh Hospital Gurugram,support@sureshhospitalgurugram.in,Gurugram,28.485007,77.139743,approved
+hospital,Saraswati Super Speciality Hospital,help@saraswatisuperspecialityhosp.net,Noida,28.52803,77.423168,pending
+hospital,Mayom Healthcare,help@mayomhealthcare.net,Ghaziabad,28.774577,77.409084,approved
+hospital,Holy Family General Hospital,info@holyfamilygeneralhospital.in,Greater Noida,28.409345,77.556538,approved
+hospital,Sarvodaya Multi Speciality Hospital,help@sarvodayamultispecialityhosp.org,Ghaziabad,28.699163,77.449359,approved
+hospital,Bindal Speciality Hospital,help@bindalspecialityhospital.org,Gurugram,28.376033,77.121138,approved
+hospital,Capital General Hospital,care@capitalgeneralhospital.com,Sonipat,29.048255,77.064587,approved
+hospital,Mother Clinic & Hospital,contact@motherclinicandhospital.in,Ghaziabad,28.61441,77.466869,approved
+hospital,Regional Super Speciality Hospital,admin@regionalsuperspecialityhospi.net,Ghaziabad,28.714225,77.432357,approved
+hospital,City General Hospital,admin@citygeneralhospital.in,New Delhi,28.571101,77.139562,approved
+hospital,Sanjeevan Medical Centre,info@sanjeevanmedicalcentre.org,New Delhi,28.605376,77.2308,pending
+hospital,Prime Health Institute,info@primehealthinstitute.com,Gurugram,28.464201,76.988209,approved
+hospital,Mahajan Multi Speciality Hospital,admin@mahajanmultispecialityhospit.in,Ghaziabad,28.6675,77.337419,approved
+hospital,Deen Dayal Upadhyay Hospital,info@deendayalupadhyayhospital.net,New Delhi,28.600443,77.289719,approved
+hospital,Goyal Clinic & Hospital,contact@goyalclinicandhospital.in,Gurugram,28.532443,77.058272,approved
+hospital,Prime Clinic & Hospital,reception@primeclinicandhospital.net,Gurugram,28.50486,77.050152,approved
+hospital,Ram Manohar Hospital Faridabad,contact@rammanoharhospitalfaridabad.net,Faridabad,28.408905,77.323972,approved
+hospital,Venkateshwar Multi Speciality Hospital Ghaziabad,contact@venkateshwarmultispecialityh.net,Ghaziabad,28.750636,77.497833,approved
+hospital,QRG General Hospital,care@qrggeneralhospital.org,Faridabad,28.385478,77.233342,approved
+hospital,Nayati Multi Speciality Hospital,contact@nayatimultispecialityhospita.in,Greater Noida,28.571397,77.471347,approved
+hospital,Mayom Medical Centre,care@mayommedicalcentre.com,Noida,28.641568,77.337108,approved
+hospital,Samvedna Medical Institute New Delhi,support@samvednamedicalinstitutenewd.com,New Delhi,28.684236,77.112968,pending
+hospital,Kailash Hospital Noida,info@kailashhospitalnoida.com,Noida,28.514226,77.318788,approved
+hospital,Rockland Clinic & Hospital Ghaziabad,reception@rocklandclinicandhospitalgha.in,Ghaziabad,28.617058,77.424356,approved
+hospital,Indraprastha Nursing Home,help@indraprasthanursinghome.net,Sonipat,29.098906,77.001746,approved
+hospital,Suresh Healthcare Ghaziabad,support@sureshhealthcareghaziabad.com,Ghaziabad,28.772204,77.519844,approved
+hospital,Metro Nursing Home Greater Noida,admin@metronursinghomegreaternoida.com,Greater Noida,28.553392,77.614794,approved
+hospital,Columbia Asia Hospital Palam Vihar,info@columbiaasiahospitalpalamvih.com,New Delhi,28.637847,77.151866,approved
+hospital,Mahajan Imaging Centre,contact@mahajanimagingcentre.in,New Delhi,28.720661,77.214607,approved
+hospital,Kailash General Hospital,help@kailashgeneralhospital.net,Noida,28.506604,77.369532,approved
+hospital,Ram Manohar Super Speciality Hospital Gurugram,info@rammanoharsuperspecialityhos.in,Gurugram,28.549612,76.993941,approved
+hospital,Lifecare Speciality Hospital Gurugram,help@lifecarespecialityhospitalgu.in,Gurugram,28.424919,77.139683,approved
+hospital,Jeevan Hospital Bahadurgarh,support@jeevanhospitalbahadurgarh.com,Bahadurgarh,28.658499,76.936381,approved
+hospital,Shiv Eye & General Hospital New Delhi,care@shiveyeandgeneralhospitalnew.org,New Delhi,28.636627,77.153403,approved
+hospital,Bhagat Clinic & Hospital,reception@bhagatclinicandhospital.net,Ghaziabad,28.790887,77.335313,approved
+hospital,Central Medical College Hospital,contact@centralmedicalcollegehospita.com,Noida,28.618029,77.421449,approved
+hospital,BLK-Max Speciality Hospital Noida,care@blkmaxspecialityhospitalnoid.org,Noida,28.512956,77.374138,approved
+hospital,Capital Medical Centre Gurugram,help@capitalmedicalcentregurugram.com,Gurugram,28.517161,77.074087,approved
+hospital,Prime Healthcare,contact@primehealthcare.com,Noida,28.555744,77.468261,approved
+hospital,Ram Manohar Medical Centre,help@rammanoharmedicalcentre.in,Gurugram,28.456166,77.14035,approved
+hospital,Subham Healthcare Ghaziabad,info@subhamhealthcareghaziabad.com,Ghaziabad,28.777303,77.440334,approved
+hospital,Kalyani Multi Speciality Hospital Ghaziabad,support@kalyanimultispecialityhospit.org,Ghaziabad,28.644644,77.351883,approved
+hospital,District Medical College Hospital,care@districtmedicalcollegehospit.com,New Delhi,28.615777,77.197411,pending
+hospital,Paras Clinic & Hospital,support@parasclinicandhospital.org,Ghaziabad,28.678156,77.462644,approved
+hospital,Artemis Multi Speciality Hospital,help@artemismultispecialityhospit.com,Noida,28.617089,77.469696,pending
+hospital,Srs Hospital Gurugram,help@srshospitalgurugram.net,Gurugram,28.480156,77.00059,approved
+hospital,Medanta Clinic & Hospital,contact@medantaclinicandhospital.com,Noida,28.511209,77.493163,pending
+hospital,City Super Speciality Hospital,care@citysuperspecialityhospital.net,Faridabad,28.463432,77.381883,approved
+hospital,Fortis Hospital Greater Noida,reception@fortishospitalgreaternoida.in,Greater Noida,28.49624,77.52467,approved
+hospital,Sarvodaya Eye & General Hospital Greater Noida,contact@sarvodayaeyeandgeneralhospit.com,Greater Noida,28.542593,77.648369,approved
+hospital,Medanta Speciality Hospital,care@medantaspecialityhospital.org,Noida,28.57823,77.366284,approved
+hospital,Apollo Medical College Hospital Ghaziabad,support@apollomedicalcollegehospital.com,Ghaziabad,28.694119,77.507059,approved
+hospital,National Speciality Hospital,support@nationalspecialityhospital.net,Greater Noida,28.58552,77.442653,approved
+hospital,QRG Healthcare New Delhi,care@qrghealthcarenewdelhi.com,New Delhi,28.724425,77.273397,approved
+hospital,Medanta The Medicity,reception@medantathemedicity.net,Gurugram,28.531273,77.085896,approved
+hospital,Niraamaya Speciality Hospital,admin@niraamayaspecialityhospital.org,Noida,28.57007,77.320203,approved
+hospital,Subham Speciality Hospital New Delhi,reception@subhamspecialityhospitalnewd.in,New Delhi,28.580804,77.291094,approved
+hospital,Navneet Speciality Hospital Noida,help@navneetspecialityhospitalnoi.com,Noida,28.596159,77.44842,approved
+hospital,Kalawati Speciality Hospital Ghaziabad,admin@kalawatispecialityhospitalgh.net,Ghaziabad,28.622734,77.47744,approved
+hospital,Bindal Speciality Hospital Ghaziabad,contact@bindalspecialityhospitalghaz.org,Ghaziabad,28.654787,77.317773,approved
+hospital,District Clinic & Hospital Noida,help@districtclinicandhospitalnoi.com,Noida,28.564816,77.423713,approved
+hospital,ESIC Hospital Faridabad,support@esichospitalfaridabad.org,Faridabad,28.450259,77.274983,approved
+hospital,Primus Super Speciality Hospital New Delhi,help@primussuperspecialityhospita.net,New Delhi,28.566211,77.174169,pending
+hospital,Lal Bahadur Medical Institute Bahadurgarh,support@lalbahadurmedicalinstituteba.com,Bahadurgarh,28.670898,76.907764,approved
+hospital,Capital Super Speciality Hospital,support@capitalsuperspecialityhospit.org,Ghaziabad,28.618661,77.492306,approved
+hospital,Janakpuri Super Speciality Hospital,info@janakpurisuperspecialityhosp.in,New Delhi,28.703651,77.052558,approved
+hospital,Apollo Medical Centre,support@apollomedicalcentre.org,New Delhi,28.674875,77.064985,approved
+hospital,Rockland Healthcare,admin@rocklandhealthcare.net,Noida,28.624332,77.411119,pending
+hospital,Yashoda Hospital Noida,info@yashodahospitalnoida.net,Noida,28.606496,77.410007,approved
+hospital,Divine Healthcare Faridabad,reception@divinehealthcarefaridabad.com,Faridabad,28.445102,77.208466,approved
+hospital,Bindal Hospital,admin@bindalhospital.org,New Delhi,28.608938,77.250277,approved
+hospital,Paras Healthcare,info@parashealthcare.in,Noida,28.637284,77.409654,approved
+hospital,City Speciality Hospital,contact@cityspecialityhospital.in,New Delhi,28.709577,77.103909,approved
+hospital,Ujala Healthcare,reception@ujalahealthcare.com,Faridabad,28.443938,77.254324,approved
+hospital,Columbia Asia Clinic & Hospital New Delhi,care@columbiaasiaclinicandhospita.in,New Delhi,28.743931,77.238975,approved
+hospital,Goyal Medical Institute,care@goyalmedicalinstitute.org,New Delhi,28.567225,77.255543,approved
+hospital,Balaji Hospital New Delhi,support@balajihospitalnewdelhi.in,New Delhi,28.72521,77.067955,approved
+hospital,Samarth Healthcare,care@samarthhealthcare.org,Noida,28.637659,77.484347,approved
+hospital,Apollo Hospital Noida,care@apollohospitalnoida.com,Noida,28.537936,77.439347,approved
+hospital,Santosh Eye & General Hospital,reception@santosheyeandgeneralhospital.org,New Delhi,28.628054,77.293704,approved
+hospital,District Speciality Hospital New Delhi,help@districtspecialityhospitalne.org,New Delhi,28.68188,77.25755,pending
+hospital,Asian Hospital Faridabad,admin@asianhospitalfaridabad.net,Faridabad,28.37789,77.325695,approved
+hospital,Pushpanjali Medical Centre,care@pushpanjalimedicalcentre.net,Ghaziabad,28.661729,77.404284,approved
+hospital,BLK-Max Healthcare,contact@blkmaxhealthcare.org,Gurugram,28.485224,77.046369,pending
+hospital,Manipal Medical Institute,reception@manipalmedicalinstitute.net,New Delhi,28.679387,77.144836,approved
+hospital,Holy Family General Hospital New Delhi,support@holyfamilygeneralhospitalnew.in,New Delhi,28.707633,77.104001,approved
+hospital,Shiv General Hospital,reception@shivgeneralhospital.in,Noida,28.540365,77.394648,approved
+hospital,Shiv Medical College Hospital,support@shivmedicalcollegehospital.in,Noida,28.589491,77.313348,approved
+hospital,Indraprastha Medical College Hospital Ghaziabad,care@indraprasthamedicalcollegeho.com,Ghaziabad,28.625804,77.533865,approved
+hospital,Accord General Hospital New Delhi,help@accordgeneralhospitalnewdelh.com,New Delhi,28.617007,77.057379,approved
+hospital,Sanjeevan Healthcare Gurugram,care@sanjeevanhealthcaregurugram.in,Gurugram,28.408446,76.960056,approved
+hospital,Mayom Eye & General Hospital,help@mayomeyeandgeneralhospital.net,Ghaziabad,28.788152,77.310229,approved
+hospital,City Hospital Sonipat,info@cityhospitalsonipat.com,Sonipat,29.043627,77.127102,approved
+hospital,Shiv Hospital Greater Noida,contact@shivhospitalgreaternoida.in,Greater Noida,28.588991,77.641799,approved
+hospital,Bhagat Healthcare Noida,support@bhagathealthcarenoida.org,Noida,28.587539,77.353481,approved
+hospital,Max Hospital Gurugram,support@maxhospitalgurugram.in,Gurugram,28.548831,77.132337,pending
+hospital,Niraamaya Hospital,reception@niraamayahospital.com,Gurugram,28.351795,77.029619,approved
+hospital,Regional Clinic & Hospital,reception@regionalclinicandhospital.in,New Delhi,28.57104,77.084352,approved
+hospital,Capital Hospital,reception@capitalhospital.com,Greater Noida,28.518725,77.534343,approved
+hospital,Jaypee General Hospital Gurugram,help@jaypeegeneralhospitalgurugra.in,Gurugram,28.421942,77.024117,approved
+hospital,Fortis Nursing Home Noida,reception@fortisnursinghomenoida.com,Noida,28.532036,77.457861,approved
+hospital,Goyal Hospital Noida,care@goyalhospitalnoida.org,Noida,28.548723,77.458587,approved
+hospital,Rockland Multi Speciality Hospital,contact@rocklandmultispecialityhospi.net,New Delhi,28.576375,77.111914,approved
+hospital,Prime Hospital Greater Noida,care@primehospitalgreaternoida.com,Greater Noida,28.519594,77.469353,approved
+hospital,Dharam Multi Speciality Hospital Gurugram,care@dharammultispecialityhospita.org,Gurugram,28.52319,76.967519,approved
+hospital,Holy Family Speciality Hospital,info@holyfamilyspecialityhospital.org,Faridabad,28.464524,77.307842,approved
+hospital,Lal Bahadur Eye & General Hospital Ghaziabad,admin@lalbahadureyeandgeneralhospi.org,Ghaziabad,28.736466,77.54208,approved
+hospital,Divine Medical Centre Gurugram,contact@divinemedicalcentregurugram.org,Gurugram,28.406404,77.129835,approved
+hospital,Accord Nursing Home,support@accordnursinghome.org,Noida,28.545627,77.300137,approved
+hospital,Balaji Healthcare,admin@balajihealthcare.in,New Delhi,28.690188,77.25122,approved
+hospital,National Clinic & Hospital Noida,info@nationalclinicandhospitalnoi.org,Noida,28.536507,77.338683,approved
+hospital,Santosh Clinic & Hospital Gurugram,admin@santoshclinicandhospitalguru.in,Gurugram,28.450337,76.964413,approved
+hospital,Shree Speciality Hospital New Delhi,support@shreespecialityhospitalnewde.com,New Delhi,28.567241,77.234997,pending
+hospital,Goyal Multi Speciality Hospital Ghaziabad,info@goyalmultispecialityhospital.net,Ghaziabad,28.628141,77.427465,approved
+hospital,Nayati Healthcare New Delhi,support@nayatihealthcarenewdelhi.org,New Delhi,28.599324,77.171978,approved
+hospital,Care Multi Speciality Hospital,reception@caremultispecialityhospital.net,Ghaziabad,28.661479,77.53105,approved
+hospital,Deen Dayal Super Speciality Hospital,help@deendayalsuperspecialityhosp.net,Noida,28.62126,77.371554,approved
+hospital,Shree Multi Speciality Hospital,help@shreemultispecialityhospital.com,Faridabad,28.459898,77.307572,approved
+hospital,Mother Speciality Hospital,contact@motherspecialityhospital.net,Ghaziabad,28.604183,77.458644,approved
+hospital,Batra Hospital,info@batrahospital.com,New Delhi,28.56389,77.134521,approved
+hospital,Jaypee Clinic & Hospital,contact@jaypeeclinicandhospital.org,Sonipat,28.993792,77.096932,approved
+hospital,QRG Multi Speciality Hospital Noida,info@qrgmultispecialityhospitalno.org,Noida,28.572583,77.381596,approved
+hospital,Suncity General Hospital,reception@suncitygeneralhospital.org,Faridabad,28.461323,77.397356,approved
+hospital,Goyal Speciality Hospital,info@goyalspecialityhospital.org,Noida,28.618605,77.412562,approved
+hospital,Accord Speciality Hospital Ghaziabad,info@accordspecialityhospitalghaz.in,Ghaziabad,28.674221,77.517533,approved
+hospital,Sharda Healthcare,contact@shardahealthcare.net,Noida,28.551585,77.368567,approved
+hospital,Regency Hospital Noida,support@regencyhospitalnoida.net,Noida,28.568399,77.347287,approved
+hospital,Lifecare Speciality Hospital Ghaziabad,info@lifecarespecialityhospitalgh.org,Ghaziabad,28.794061,77.444551,approved
+hospital,Ujala Cygnus Hospital,reception@ujalacygnushospital.org,Gurugram,28.498349,76.992535,approved
+hospital,Bhagat Nursing Home,reception@bhagatnursinghome.net,Greater Noida,28.523961,77.574804,approved
+hospital,Prime Medical Institute Faridabad,reception@primemedicalinstitutefaridab.org,Faridabad,28.369665,77.346269,approved
+hospital,Ujala Medical Institute New Delhi,admin@ujalamedicalinstitutenewdelh.com,New Delhi,28.685848,77.24302,approved
+hospital,Venkateshwar General Hospital,contact@venkateshwargeneralhospital.org,Greater Noida,28.525965,77.632524,approved
+hospital,Artemis Medical Centre,contact@artemismedicalcentre.in,New Delhi,28.634713,77.094018,approved
+hospital,Suncity Nursing Home,contact@suncitynursinghome.org,New Delhi,28.672744,77.2513,approved
+hospital,Fortis Medical Institute,support@fortismedicalinstitute.com,Faridabad,28.430859,77.397029,pending
+hospital,Columbia Asia Hospital Gurugram,support@columbiaasiahospitalgurugram.in,Gurugram,28.397974,77.069874,approved
+hospital,Ujala General Hospital Noida,reception@ujalageneralhospitalnoida.org,Noida,28.554711,77.419514,approved
+hospital,Sarvodaya Super Speciality Hospital,care@sarvodayasuperspecialityhosp.in,New Delhi,28.64985,77.181414,approved
+hospital,QRG Hospital Ghaziabad,reception@qrghospitalghaziabad.net,Ghaziabad,28.606488,77.358169,approved
+hospital,Subham Hospital Greater Noida,support@subhamhospitalgreaternoida.net,Greater Noida,28.598168,77.441611,approved
+hospital,Deep Chand Bandhu Hospital,support@deepchandbandhuhospital.org,New Delhi,28.668737,77.210965,approved
+hospital,Bindal Multi Speciality Hospital,support@bindalmultispecialityhospita.net,Noida,28.620008,77.377192,pending
+hospital,Saraswati Clinic & Hospital,reception@saraswaticlinicandhospital.net,Ghaziabad,28.679183,77.535716,approved
+hospital,Metro Nursing Home,support@metronursinghome.org,Noida,28.602042,77.340025,approved
+hospital,QRG Medical College Hospital New Delhi,support@qrgmedicalcollegehospitalnew.com,New Delhi,28.749147,77.095057,approved
+hospital,Kailash Hospital,support@kailashhospital.net,Gurugram,28.533316,77.029815,approved
+hospital,Paras Nursing Home Gurugram,contact@parasnursinghomegurugram.in,Gurugram,28.444454,77.004348,approved
+hospital,Kalawati Hospital Noida,contact@kalawatihospitalnoida.in,Noida,28.516964,77.353709,approved
+hospital,Sarvodaya Nursing Home,admin@sarvodayanursinghome.in,Faridabad,28.461836,77.28591,approved
+hospital,Kalawati Multi Speciality Hospital,contact@kalawatimultispecialityhospi.net,Greater Noida,28.456217,77.585436,approved
+hospital,Kalawati Hospital,contact@kalawatihospital.net,Noida,28.527321,77.485245,approved
+hospital,Kalawati Healthcare,help@kalawatihealthcare.com,New Delhi,28.700422,77.143599,approved
+hospital,Central Hospital Greater Noida,info@centralhospitalgreaternoida.com,Greater Noida,28.420659,77.563799,pending
+hospital,City Nursing Home,info@citynursinghome.com,New Delhi,28.567874,77.174073,approved
+hospital,Felix Hospital Noida,contact@felixhospitalnoida.com,Noida,28.523426,77.445229,pending
+hospital,Ram Manohar Speciality Hospital New Delhi,contact@rammanoharspecialityhospital.in,New Delhi,28.706728,77.16765,approved
+hospital,Prime Hospital Bahadurgarh,contact@primehospitalbahadurgarh.com,Bahadurgarh,28.693184,77.01829,pending
+hospital,Sharda Hospital Noida,contact@shardahospitalnoida.in,Noida,28.553284,77.36362,pending
+hospital,Sharda Hospital Greater Noida,care@shardahospitalgreaternoida.com,Greater Noida,28.525362,77.589631,approved
+hospital,Lifecare Hospital Noida,support@lifecarehospitalnoida.in,Noida,28.510094,77.369596,pending
+hospital,Kailash Medical Institute New Delhi,admin@kailashmedicalinstitutenewde.org,New Delhi,28.617457,77.141957,approved
+hospital,Medanta Healthcare,support@medantahealthcare.org,New Delhi,28.724302,77.296548,pending
+hospital,Columbia Asia Eye & General Hospital Ghaziabad,care@columbiaasiaeyeandgeneralhos.in,Ghaziabad,28.791344,77.369375,approved
+hospital,Lal Bahadur Speciality Hospital,contact@lalbahadurspecialityhospital.in,New Delhi,28.644874,77.245983,approved
+hospital,Santosh Clinic & Hospital,contact@santoshclinicandhospital.org,Noida,28.633273,77.392019,approved
+hospital,Pushpanjali Medical Centre Noida,reception@pushpanjalimedicalcentrenoid.net,Noida,28.620949,77.422696,approved
+hospital,Samarth General Hospital New Delhi,info@samarthgeneralhospitalnewdel.net,New Delhi,28.554631,77.295253,approved
+hospital,Artemis Health Institute Sonipat,support@artemishealthinstitutesonipa.com,Sonipat,29.09239,77.072422,approved
+hospital,Suresh Medical Institute,reception@sureshmedicalinstitute.com,Noida,28.609188,77.38794,approved
+hospital,Bhagat Hospital Noida,help@bhagathospitalnoida.in,Noida,28.614526,77.485931,pending
+hospital,Bhagat Eye & General Hospital,contact@bhagateyeandgeneralhospital.net,Ghaziabad,28.6686,77.36632,approved
+hospital,Sanjeevan Hospital,reception@sanjeevanhospital.net,Ghaziabad,28.678053,77.338755,approved
+hospital,Paras Super Speciality Hospital New Delhi,admin@parassuperspecialityhospital.net,New Delhi,28.71744,77.290198,approved
+hospital,Jeevan Hospital Noida,reception@jeevanhospitalnoida.net,Noida,28.581813,77.31201,approved
+hospital,Jai Prakash Health Institute,info@jaiprakashhealthinstitute.org,Gurugram,28.489765,77.090498,approved
+hospital,Mahajan Eye & General Hospital,contact@mahajaneyeandgeneralhospital.com,Gurugram,28.497531,77.004146,approved
+hospital,Dharam Super Speciality Hospital New Delhi,care@dharamsuperspecialityhospita.in,New Delhi,28.724446,77.122835,approved
+hospital,Mother Super Speciality Hospital,care@mothersuperspecialityhospita.in,Faridabad,28.334421,77.387224,approved
+hospital,Lok Nayak Hospital,care@loknayakhospital.net,New Delhi,28.741353,77.185037,approved
+hospital,Paras Medical Centre,admin@parasmedicalcentre.in,Sonipat,29.073167,77.117412,approved
+hospital,Narayana Multi Speciality Hospital,care@narayanamultispecialityhospi.com,Noida,28.514626,77.485714,approved
+hospital,Metro Hospital Faridabad,reception@metrohospitalfaridabad.net,Faridabad,28.305418,77.383279,approved
+hospital,Dharam Health Institute,help@dharamhealthinstitute.in,Gurugram,28.522824,76.962713,approved
+hospital,Fortis Clinic & Hospital Gurugram,reception@fortisclinicandhospitalgurug.in,Gurugram,28.450925,76.958438,approved
+hospital,Care Hospital Ghaziabad,care@carehospitalghaziabad.com,Ghaziabad,28.741926,77.423453,approved
+hospital,Mahajan Medical College Hospital Gurugram,reception@mahajanmedicalcollegehospita.com,Gurugram,28.46211,77.003721,approved
+hospital,Suncity Hospital Ghaziabad,contact@suncityhospitalghaziabad.net,Ghaziabad,28.630421,77.424339,approved
+hospital,Mother Medical College Hospital New Delhi,care@mothermedicalcollegehospital.net,New Delhi,28.573568,77.074797,approved
+hospital,Venkateshwar Multi Speciality Hospital,care@venkateshwarmultispecialityh.org,Gurugram,28.456597,77.068176,approved
+hospital,Central Speciality Hospital Noida,admin@centralspecialityhospitalnoi.com,Noida,28.515615,77.485919,approved
+hospital,Samvedna Hospital,admin@samvednahospital.net,Faridabad,28.344182,77.210096,pending
+hospital,Rockland Hospital,support@rocklandhospital.net,Faridabad,28.46943,77.311171,approved
+hospital,Divine Speciality Hospital Sonipat,reception@divinespecialityhospitalsoni.com,Sonipat,29.001129,77.099593,approved
+hospital,Lal Bahadur Nursing Home,reception@lalbahadurnursinghome.com,Noida,28.554334,77.457629,approved
+hospital,Medanta Medical College Hospital Noida,care@medantamedicalcollegehospita.org,Noida,28.541274,77.448259,approved
+hospital,Nayati Hospital Ghaziabad,contact@nayatihospitalghaziabad.org,Ghaziabad,28.702351,77.469502,approved
+hospital,Central Eye & General Hospital,admin@centraleyeandgeneralhospital.com,Noida,28.567998,77.380084,approved
+hospital,Venkateshwar Eye & General Hospital Ghaziabad,contact@venkateshwareyeandgeneralhos.in,Ghaziabad,28.720235,77.457966,pending
+hospital,Narayana Clinic & Hospital,admin@narayanaclinicandhospital.com,New Delhi,28.584107,77.090655,approved
+hospital,Primus Clinic & Hospital Faridabad,reception@primusclinicandhospitalfarid.in,Faridabad,28.326366,77.382345,approved
+hospital,Suresh General Hospital,contact@sureshgeneralhospital.in,Greater Noida,28.436481,77.448045,approved
+hospital,Prakash Super Speciality Hospital Noida,admin@prakashsuperspecialityhospit.in,Noida,28.550994,77.493837,pending
+hospital,Sharda Clinic & Hospital,help@shardaclinicandhospital.com,Greater Noida,28.474125,77.448476,approved
+hospital,Dharam Medical College Hospital New Delhi,support@dharammedicalcollegehospital.net,New Delhi,28.565921,77.187208,approved
+hospital,Ram Manohar Super Speciality Hospital Noida,info@rammanoharsuperspecialityhos.net,Noida,28.632066,77.380313,approved
+hospital,Suncity Eye & General Hospital,care@suncityeyeandgeneralhospital.org,Faridabad,28.336444,77.338625,approved
+hospital,Artemis Hospital Gurugram,reception@artemishospitalgurugram.org,Gurugram,28.428029,77.138367,pending
+hospital,Max Nursing Home Greater Noida,info@maxnursinghomegreaternoida.com,Greater Noida,28.429369,77.494509,approved
+hospital,District Speciality Hospital,care@districtspecialityhospital.net,Ghaziabad,28.655126,77.311569,approved
+hospital,Sanjay Gandhi Memorial Hospital,info@sanjaygandhimemorialhospital.in,New Delhi,28.646892,77.275647,approved
+hospital,Lifecare Hospital Gurugram,info@lifecarehospitalgurugram.org,Gurugram,28.467288,77.11055,approved
+hospital,Navneet Hospital Faridabad,support@navneethospitalfaridabad.org,Faridabad,28.431768,77.237113,approved
+hospital,Central Multi Speciality Hospital,support@centralmultispecialityhospit.net,Noida,28.633314,77.355336,approved
+hospital,Accord Hospital Faridabad,admin@accordhospitalfaridabad.org,Faridabad,28.429195,77.302792,approved
+hospital,Ujala Clinic & Hospital Noida,reception@ujalaclinicandhospitalnoida.net,Noida,28.601142,77.45805,approved
+hospital,Columbia Asia Hospital Ghaziabad,help@columbiaasiahospitalghaziaba.net,Ghaziabad,28.798162,77.535389,approved
+hospital,Park Hospital Gurugram,help@parkhospitalgurugram.com,Gurugram,28.44544,76.958101,approved
+hospital,Narayana Health Institute,support@narayanahealthinstitute.in,Faridabad,28.352785,77.318065,approved
+hospital,Ganesh Medical Centre New Delhi,help@ganeshmedicalcentrenewdelhi.org,New Delhi,28.608904,77.263348,approved
+hospital,Navneet Super Speciality Hospital,admin@navneetsuperspecialityhospit.com,New Delhi,28.678394,77.265308,approved
+hospital,Manipal Multi Speciality Hospital,contact@manipalmultispecialityhospit.org,Ghaziabad,28.657477,77.349802,approved
+hospital,Care Clinic & Hospital Gurugram,support@careclinicandhospitalgurugra.org,Gurugram,28.381689,76.954322,approved
+hospital,Prakash Nursing Home New Delhi,support@prakashnursinghomenewdelhi.net,New Delhi,28.559814,77.236436,approved
+hospital,Capital Super Speciality Hospital Ghaziabad,admin@capitalsuperspecialityhospit.org,Ghaziabad,28.674011,77.311256,approved
+hospital,Yashoda Super Speciality Hospital,info@yashodasuperspecialityhospit.net,Ghaziabad,28.782626,77.450962,approved
+hospital,Bhagat General Hospital New Delhi,info@bhagatgeneralhospitalnewdelh.in,New Delhi,28.675448,77.05614,approved
+hospital,Kailash Medical College Hospital,help@kailashmedicalcollegehospita.org,Noida,28.615359,77.427954,approved
+hospital,BLK-Max Multi Speciality Hospital Faridabad,contact@blkmaxmultispecialityhospita.in,Faridabad,28.37424,77.250579,pending
+hospital,Safdarjung Hospital,reception@safdarjunghospital.net,New Delhi,28.651017,77.109014,approved
+hospital,Deen Dayal Nursing Home,admin@deendayalnursinghome.com,New Delhi,28.594254,77.240336,approved
+hospital,Nayati General Hospital,info@nayatigeneralhospital.net,Faridabad,28.368575,77.334407,approved
+hospital,Fortis Hospital,admin@fortishospital.org,Ghaziabad,28.761048,77.541323,approved
+hospital,Narayana Health Institute New Delhi,support@narayanahealthinstitutenewde.net,New Delhi,28.659416,77.270804,approved
+hospital,Mayom Hospital Gurugram,admin@mayomhospitalgurugram.in,Gurugram,28.382217,77.08244,approved
+hospital,Care Speciality Hospital Faridabad,admin@carespecialityhospitalfarida.net,Faridabad,28.3202,77.357983,approved
+hospital,Ganesh Nursing Home New Delhi,reception@ganeshnursinghomenewdelhi.com,New Delhi,28.693239,77.072273,pending
+hospital,Santosh Super Speciality Hospital New Delhi,contact@santoshsuperspecialityhospit.in,New Delhi,28.741309,77.265564,approved
+hospital,Mahajan Medical Institute,support@mahajanmedicalinstitute.com,Ghaziabad,28.788337,77.513335,approved
+hospital,Dharam Clinic & Hospital New Delhi,care@dharamclinicandhospitalnewde.in,New Delhi,28.584693,77.239345,approved
+hospital,Pushpanjali Hospital New Delhi,help@pushpanjalihospitalnewdelhi.com,New Delhi,28.735456,77.120314,approved
+hospital,Suresh Medical Centre,reception@sureshmedicalcentre.com,Noida,28.578961,77.432166,approved
+hospital,Prime Medical Centre Faridabad,contact@primemedicalcentrefaridabad.org,Faridabad,28.424016,77.354212,approved
+hospital,Narayana General Hospital,info@narayanageneralhospital.in,Ghaziabad,28.637961,77.475287,approved
+hospital,Cloudnine Hospital Noida,contact@cloudninehospitalnoida.org,Noida,28.593982,77.461535,pending
+hospital,Holy Family Medical Institute New Delhi,contact@holyfamilymedicalinstitutene.in,New Delhi,28.588384,77.117868,approved
+hospital,Maulana Azad Medical College Hospital,info@maulanaazadmedicalcollegehos.org,New Delhi,28.723177,77.108717,approved
+hospital,Rockland Hospital Dwarka,admin@rocklandhospitaldwarka.in,New Delhi,28.599153,77.092173,pending
+hospital,Aakash Medical College Hospital New Delhi,admin@aakashmedicalcollegehospital.com,New Delhi,28.673305,77.106286,approved
+hospital,Manipal Clinic & Hospital,care@manipalclinicandhospital.net,Bahadurgarh,28.676544,77.040454,approved
+hospital,Indraprastha Apollo Hospital,info@indraprasthaapollohospital.org,New Delhi,28.662025,77.189736,approved
+hospital,Bhagat Speciality Hospital,care@bhagatspecialityhospital.com,New Delhi,28.626837,77.230147,pending
+hospital,Mayom Super Speciality Hospital,admin@mayomsuperspecialityhospital.net,New Delhi,28.619255,77.20706,approved
+hospital,Shree Eye & General Hospital Noida,info@shreeeyeandgeneralhospitalno.net,Noida,28.567974,77.309845,approved
+hospital,Sarvodaya Hospital Dwarka,contact@sarvodayahospitaldwarka.in,New Delhi,28.651227,77.216734,pending
+hospital,Ujala Medical Institute Gurugram,admin@ujalamedicalinstitutegurugra.in,Gurugram,28.448057,77.025756,approved
+hospital,Shiv Speciality Hospital New Delhi,reception@shivspecialityhospitalnewdel.in,New Delhi,28.598818,77.130299,approved
+hospital,Artemis General Hospital,contact@artemisgeneralhospital.com,Greater Noida,28.435103,77.503316,approved
+hospital,QRG Super Speciality Hospital,contact@qrgsuperspecialityhospital.org,Gurugram,28.392234,76.999523,approved
+hospital,Samarth Medical Centre Ghaziabad,admin@samarthmedicalcentreghaziaba.net,Ghaziabad,28.72221,77.443803,pending
+hospital,Manipal Hospital Dwarka,info@manipalhospitaldwarka.net,New Delhi,28.581977,77.059174,approved
+hospital,Indraprastha Medical Institute,reception@indraprasthamedicalinstitute.org,New Delhi,28.649646,77.239686,approved
+hospital,Pushpanjali Clinic & Hospital,care@pushpanjaliclinicandhospital.net,Faridabad,28.321253,77.30324,pending
+hospital,Santosh Hospital Ghaziabad,admin@santoshhospitalghaziabad.com,Ghaziabad,28.674115,77.300749,approved
+hospital,Balaji Multi Speciality Hospital,help@balajimultispecialityhospita.in,Gurugram,28.507125,77.146294,approved
+hospital,Bhagat Multi Speciality Hospital,reception@bhagatmultispecialityhospita.com,Noida,28.620887,77.33923,approved
+hospital,Niraamaya Multi Speciality Hospital New Delhi,support@niraamayamultispecialityhosp.net,New Delhi,28.559587,77.244244,approved
+hospital,BLK-Max Super Speciality Hospital Ghaziabad,support@blkmaxsuperspecialityhospita.in,Ghaziabad,28.782019,77.48939,approved
+hospital,Primus Medical College Hospital,reception@primusmedicalcollegehospital.org,Gurugram,28.38505,77.102169,approved
+hospital,MMG District Hospital Ghaziabad,admin@mmgdistricthospitalghaziabad.in,Ghaziabad,28.614976,77.445005,approved
+hospital,Mayom Eye & General Hospital Gurugram,help@mayomeyeandgeneralhospitalgu.org,Gurugram,28.533777,76.967025,approved
+hospital,Lal Bahadur Hospital New Delhi,care@lalbahadurhospitalnewdelhi.in,New Delhi,28.727539,77.148243,approved
+hospital,QRG Medical Centre Gurugram,help@qrgmedicalcentregurugram.net,Gurugram,28.524952,77.109023,pending
+hospital,City Hospital Gurugram,admin@cityhospitalgurugram.org,Gurugram,28.395057,76.971417,approved

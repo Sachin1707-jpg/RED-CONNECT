@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script>
+  if (sessionStorage.getItem('loggedIn') !== 'true') {
+    window.location.href = `auth.html?redirect=${encodeURIComponent(window.location.pathname.split('/').pop() || 'map.html')}`;
+  }
+</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RedConnect – Live Blood Map</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🩸</text></svg>">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<style>
+  :root { --red:#C8102E; --blue:#3b82f6; --green:#10b981; --yellow:#f59e0b; --charcoal:#0F172A; --grey:#64748B; --white:#FFFFFF; --sidebar-w:300px; }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { font-family:'Inter',sans-serif; display:flex; height:100vh; overflow:hidden; background:#f1f5f9; }
+
+  /* ── SIDEBAR ── */
+  .sidebar { width:var(--sidebar-w); background:var(--white); display:flex; flex-direction:column; border-right:1px solid #e2e8f0; z-index:100; box-shadow:2px 0 12px rgba(0,0,0,0.06); }
+  .sidebar-header { padding:20px 20px 16px; border-bottom:1px solid #f1f5f9; display:flex; align-items:center; justify-content:space-between; }
+  .logo { display:flex; align-items:center; gap:8px; text-decoration:none; }
+  .logo-drop { width:22px; height:22px; background:var(--red); border-radius:50% 50% 50% 0; transform:rotate(-45deg); flex-shrink:0; }
+  .logo-text { font-size:1.1rem; font-weight:800; color:var(--red); }
+  .back-home { font-size:0.78rem; font-weight:600; color:var(--grey); text-decoration:none; border:1px solid #e2e8f0; padding:5px 10px; border-radius:6px; transition:all 0.2s; }
+  .back-home:hover { background:var(--charcoal); color:#fff; border-color:var(--charcoal); }
+
+  /* Counters */
+  .counters { display:grid; grid-template-columns:1fr 1fr 1fr; gap:1px; background:#f1f5f9; border-bottom:1px solid #e2e8f0; }
+  .counter-cell { background:var(--white); padding:14px 10px; text-align:center; }
+  .counter-num { font-size:1.4rem; font-weight:800; }
+  .counter-label { font-size:0.68rem; font-weight:500; color:var(--grey); margin-top:1px; text-transform:uppercase; letter-spacing:0.5px; }
+  .counter-cell.red .counter-num { color:var(--red); }
+  .counter-cell.blue .counter-num { color:var(--blue); }
+  .counter-cell.green .counter-num { color:var(--green); }
+
+  /* Filters */
+  .filters { padding:16px; border-bottom:1px solid #f1f5f9; }
+  .filter-label { font-size:0.72rem; font-weight:700; text-transform:uppercase; letter-spacing:0.8px; color:var(--grey); margin-bottom:6px; }
+  select { width:100%; padding:9px 10px; border:1.5px solid #e2e8f0; border-radius:8px; font-family:'Inter',sans-serif; font-size:0.85rem; outline:none; color:var(--charcoal); margin-bottom:10px; cursor:pointer; }
+  select:focus { border-color:var(--red); }
+  .toggle-row { display:flex; flex-direction:column; gap:6px; }
+  .toggle-item { display:flex; align-items:center; justify-content:space-between; padding:8px 10px; border-radius:8px; border:1.5px solid #e2e8f0; cursor:pointer; transition:all 0.2s; }
+  .toggle-item:hover { border-color:var(--grey); }
+  .toggle-item.active-req { border-color:var(--red); background:#fff5f5; }
+  .toggle-item.active-hosp { border-color:var(--blue); background:#eff6ff; }
+  .toggle-item.active-donor { border-color:var(--green); background:#f0fdf4; }
+  .toggle-left { display:flex; align-items:center; gap:8px; font-size:0.85rem; font-weight:600; }
+  .dot-req { width:10px; height:10px; border-radius:50%; background:var(--red); }
+  .dot-hosp { width:10px; height:10px; border-radius:50%; background:var(--blue); }
+  .dot-donor { width:10px; height:10px; border-radius:50%; background:var(--green); }
+  .count-pill { font-size:0.72rem; font-weight:700; padding:2px 8px; border-radius:20px; }
+  .pill-req { background:#fee2e2; color:#dc2626; }
+  .pill-hosp { background:#dbeafe; color:#2563eb; }
+  .pill-donor { background:#d1fae5; color:#059669; }
+
+  /* Legend */
+  .legend { padding:16px; flex:1; overflow-y:auto; }
+  .legend-title { font-size:0.72rem; font-weight:700; text-transform:uppercase; letter-spacing:0.8px; color:var(--grey); margin-bottom:10px; }
+  .legend-row { display:flex; align-items:center; gap:10px; margin-bottom:10px; font-size:0.83rem; font-weight:500; color:var(--charcoal); }
+  .leg-icon { width:28px; height:28px; border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:0.85rem; flex-shrink:0; }
+  .leg-req { background:var(--red); }
+  .leg-hosp { background:var(--blue); }
+  .leg-donor { background:var(--green); }
+  .leg-fulfilled { background:#94a3b8; }
+
+  /* Map */
+  .map-wrap { flex:1; position:relative; }
+  #map { width:100%; height:100%; }
+
+  /* Live badge */
+  .live-badge { position:absolute; top:16px; left:50%; transform:translateX(-50%); z-index:400; background:var(--white); padding:8px 18px; border-radius:50px; font-weight:700; font-size:0.82rem; display:flex; align-items:center; gap:7px; box-shadow:0 4px 16px rgba(0,0,0,0.12); border:1px solid #e2e8f0; white-space:nowrap; }
+  .live-dot { width:8px; height:8px; background:var(--green); border-radius:50%; animation:blink 1.5s infinite; }
+  @keyframes blink { 0%,100%{opacity:1;} 50%{opacity:0.3;} }
+
+  /* Loader */
+  #map-loader { position:absolute; inset:0; background:rgba(241,245,249,0.95); z-index:900; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:12px; }
+  .spin { width:44px; height:44px; border:4px solid rgba(200,16,46,0.2); border-top-color:var(--red); border-radius:50%; animation:spin 0.8s linear infinite; }
+  @keyframes spin { to{transform:rotate(360deg);} }
+
+  /* Popup */
+  .leaflet-popup-content-wrapper { border-radius:12px; box-shadow:0 8px 32px rgba(0,0,0,0.15); padding:0; overflow:hidden; }
+  .leaflet-popup-content { margin:0; }
+  .pop { font-family:'Inter',sans-serif; min-width:200px; }
+  .pop-head { padding:12px 14px 10px; font-weight:700; font-size:0.95rem; border-bottom:1px solid #f1f5f9; display:flex; align-items:center; gap:8px; }
+  .pop-body { padding:10px 14px 12px; }
+  .pop-row { font-size:0.82rem; color:var(--grey); margin-bottom:4px; display:flex; align-items:center; gap:5px; }
+  .pop-badge { display:inline-block; padding:3px 10px; border-radius:20px; font-size:0.72rem; font-weight:700; margin-top:6px; }
+  .b-red { background:#fee2e2; color:#dc2626; }
+  .b-orange { background:#fef3c7; color:#d97706; }
+  .b-blue { background:#dbeafe; color:#2563eb; }
+  .b-green { background:#d1fae5; color:#059669; }
+  .b-grey { background:#f1f5f9; color:#64748b; }
+
+  /* Marker icons */
+  .mi { width:34px; height:34px; border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:1rem; border:3px solid #fff; box-shadow:0 2px 8px rgba(0,0,0,0.25); }
+  .mi-req { background:var(--red); animation:pulse-red 2s infinite; }
+  .mi-hosp { background:var(--blue); }
+  .mi-donor { background:var(--green); }
+  .mi-fulfilled { background:#94a3b8; }
+  @keyframes pulse-red { 0%{box-shadow:0 0 0 0 rgba(200,16,46,0.5), 0 2px 8px rgba(0,0,0,0.25);} 70%{box-shadow:0 0 0 10px rgba(200,16,46,0), 0 2px 8px rgba(0,0,0,0.25);} 100%{box-shadow:0 0 0 0 rgba(200,16,46,0), 0 2px 8px rgba(0,0,0,0.25);} }
+</style>
+</head>
+<body>
+
+<!-- SIDEBAR -->
+<aside class="sidebar">
+  <div class="sidebar-header">
+    <a href="index.html" class="logo">
+      <div class="logo-drop"></div>
+      <span class="logo-text">RedConnect</span>
+    </a>
+    <a href="index.html" class="back-home">← Home</a>
+  </div>
+
+  <!-- Live counts -->
+  <div class="counters">
+    <div class="counter-cell red"><div class="counter-num" id="cntReq">–</div><div class="counter-label">Requests</div></div>
+    <div class="counter-cell blue"><div class="counter-num" id="cntHosp">–</div><div class="counter-label">Hospitals</div></div>
+    <div class="counter-cell green"><div class="counter-num" id="cntDonor">–</div><div class="counter-label">Donors</div></div>
+  </div>
+
+  <!-- Filters -->
+  <div class="filters">
+    <div class="filter-label">Filter by City</div>
+    <select id="cityFilter" onchange="refresh()">
+      <option value="">All Cities</option>
+      <option>New Delhi</option><option>Gurugram</option><option>Noida</option>
+      <option>Ghaziabad</option><option>Faridabad</option><option>Greater Noida</option>
+    </select>
+    <div class="filter-label">Filter by Blood Group</div>
+    <select id="bloodFilter" onchange="refresh()">
+      <option value="">All Blood Groups</option>
+      <option>O+</option><option>O-</option><option>A+</option><option>A-</option>
+      <option>B+</option><option>B-</option><option>AB+</option><option>AB-</option>
+    </select>
+
+    <div class="filter-label" style="margin-top:4px;">Show / Hide Layers</div>
+    <div class="toggle-row">
+      <div class="toggle-item active-req" id="togReq" onclick="toggleLayer('req')">
+        <div class="toggle-left"><div class="dot-req"></div> Blood Requests</div>
+        <span class="count-pill pill-req" id="pillReq">–</span>
+      </div>
+      <div class="toggle-item active-hosp" id="togHosp" onclick="toggleLayer('hosp')">
+        <div class="toggle-left"><div class="dot-hosp"></div> Hospitals</div>
+        <span class="count-pill pill-hosp" id="pillHosp">–</span>
+      </div>
+      <div class="toggle-item active-donor" id="togDonor" onclick="toggleLayer('donor')">
+        <div class="toggle-left"><div class="dot-donor"></div> Available Donors</div>
+        <span class="count-pill pill-donor" id="pillDonor">–</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Legend -->
+  <div class="legend">
+    <div class="legend-title">Map Legend</div>
+    <div class="legend-row"><div class="leg-icon leg-req">🆘</div> Critical / Urgent Request</div>
+    <div class="legend-row"><div class="leg-icon leg-fulfilled">✓</div> Fulfilled Request</div>
+    <div class="legend-row"><div class="leg-icon leg-hosp">🏥</div> Verified Hospital</div>
+    <div class="legend-row"><div class="leg-icon leg-donor">🩸</div> Available Donor</div>
+  </div>
+</aside>
+
+<!-- MAP -->
+<div class="map-wrap">
+  <div id="map-loader">
+    <div class="spin"></div>
+    <div style="font-weight:600;color:#64748b;font-size:0.9rem;">Loading live map data…</div>
+  </div>
+  <div class="live-badge"><div class="live-dot"></div> Live — All data loaded</div>
+  <div id="map"></div>
+</div>
+
+<script src="demoData.js"></script>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+  // ── MAP INIT ──────────────────────────────────────────────────
+  const map = L.map('map', { zoomControl: true }).setView([28.55, 77.20], 11);
+  L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
+    attribution: '© OpenStreetMap contributors © CARTO',
+    maxZoom: 18
+  }).addTo(map);
+
+  map.whenReady(() => {
+    setTimeout(() => { document.getElementById('map-loader').style.display = 'none'; }, 600);
+  });
+
+  // ── STATE ─────────────────────────────────────────────────────
+  let allMarkers = { req: [], hosp: [], donor: [] };
+  let layers = { req: true, hosp: true, donor: true };
+
+  // ── ICON FACTORY ─────────────────────────────────────────────
+  function mkIcon(cls, emoji) {
+    return L.divIcon({
+      html: `<div class="mi ${cls}">${emoji}</div>`,
+      className: '',
+      iconSize: [34, 34],
+      iconAnchor: [17, 17],
+      popupAnchor: [0, -18]
+    });
+  }
+
+  const ICONS = {
+    critical: mkIcon('mi-req', '🆘'),
+    fulfilled: mkIcon('mi-fulfilled', '✓'),
+    hospital:  mkIcon('mi-hosp', '🏥'),
+    donor:     mkIcon('mi-donor', '🩸')
+  };
+
+  // ── LOAD ALL DATA ─────────────────────────────────────────────
+  async function refresh() {
+    await window.fetchBackendData();
+
+    // clear all markers
+    Object.values(allMarkers).flat().forEach(m => map.removeLayer(m));
+    allMarkers = { req: [], hosp: [], donor: [] };
+
+    const data = window.demoData;
+    const cityF  = document.getElementById('cityFilter').value;
+    const bloodF = document.getElementById('bloodFilter').value;
+
+    // ── BLOOD REQUESTS (ALL statuses) ─────────────────────────
+    data.blood_requests.forEach(r => {
+      if (cityF  && r.city        !== cityF)  return;
+      if (bloodF && r.blood_group !== bloodF) return;
+      if (!r.lat || !r.lng) return;
+
+      const isFulfilled = r.status === 'Fulfilled';
+      const icon = isFulfilled ? ICONS.fulfilled : ICONS.critical;
+
+      const urgencyColor = { Critical:'b-red', Urgent:'b-orange', Normal:'b-blue' }[r.urgency] || 'b-grey';
+      const statusColor  = isFulfilled ? 'b-green' : 'b-red';
+
+      const popup = `<div class="pop">
+        <div class="pop-head" style="color:${isFulfilled ? '#059669' : '#dc2626'}">
+          ${isFulfilled ? '✅' : '🆘'} ${r.blood_group} Request
+        </div>
+        <div class="pop-body">
+          <div class="pop-row">🏥 ${r.hospital_name}</div>
+          <div class="pop-row">📍 ${r.city}</div>
+          <div class="pop-row">💧 ${r.units} unit${r.units > 1 ? 's' : ''} needed</div>
+          <span class="pop-badge ${urgencyColor}">${r.urgency}</span>
+          <span class="pop-badge ${statusColor}">${r.status}</span>
+        </div>
+      </div>`;
+
+      const m = L.marker([r.lat, r.lng], { icon }).addTo(map).bindPopup(popup);
+      allMarkers.req.push(m);
+    });
+
+    // ── HOSPITALS (all) ───────────────────────────────────────
+    data.hospitals.forEach(h => {
+      if (cityF && h.city !== cityF) return;
+      if (!h.lat || !h.lng) return;
+
+      const popup = `<div class="pop">
+        <div class="pop-head" style="color:#2563eb">🏥 ${h.name}</div>
+        <div class="pop-body">
+          <div class="pop-row">📍 ${h.city}</div>
+          <div class="pop-row">📞 ${h.contact}</div>
+          <span class="pop-badge b-blue">${h.verified ? '✓ Verified Hospital' : 'Unverified'}</span>
+        </div>
+      </div>`;
+
+      const m = L.marker([h.lat, h.lng], { icon: ICONS.hospital }).addTo(map).bindPopup(popup);
+      allMarkers.hosp.push(m);
+    });
+
+    // ── DONORS (all, including unavailable) ──────────────────
+    data.donors.forEach(d => {
+      if (cityF  && d.city        !== cityF)  return;
+      if (bloodF && d.blood_group !== bloodF) return;
+      if (!d.lat || !d.lng) return;
+
+      const statusBadge = d.available
+        ? '<span class="pop-badge b-green">✓ Available</span>'
+        : '<span class="pop-badge b-grey">Unavailable</span>';
+
+      const popup = `<div class="pop">
+        <div class="pop-head" style="color:#059669">🩸 ${d.name}</div>
+        <div class="pop-body">
+          <div class="pop-row">💉 Blood Group: <strong>${d.blood_group}</strong></div>
+          <div class="pop-row">📍 ${d.city}</div>
+          <div class="pop-row">📞 ${d.phone}</div>
+          <div class="pop-row">🎁 ${d.donations_count} donation${d.donations_count !== 1 ? 's' : ''}</div>
+          ${statusBadge}
+        </div>
+      </div>`;
+
+      const m = L.marker([d.lat, d.lng], { icon: ICONS.donor }).addTo(map).bindPopup(popup);
+      allMarkers.donor.push(m);
+    });
+
+    updateCounts();
+    applyLayerVisibility();
+  }
+
+  // ── COUNTS ───────────────────────────────────────────────────
+  function updateCounts() {
+    document.getElementById('cntReq').textContent   = allMarkers.req.length;
+    document.getElementById('cntHosp').textContent  = allMarkers.hosp.length;
+    document.getElementById('cntDonor').textContent = allMarkers.donor.length;
+    document.getElementById('pillReq').textContent   = allMarkers.req.length;
+    document.getElementById('pillHosp').textContent  = allMarkers.hosp.length;
+    document.getElementById('pillDonor').textContent = allMarkers.donor.length;
+  }
+
+  // ── LAYER TOGGLE ─────────────────────────────────────────────
+  function toggleLayer(type) {
+    layers[type] = !layers[type];
+    const clsMap = { req:'active-req', hosp:'active-hosp', donor:'active-donor' };
+    document.getElementById('tog' + type.charAt(0).toUpperCase() + type.slice(1))
+      .classList.toggle(clsMap[type], layers[type]);
+    applyLayerVisibility();
+  }
+
+  function applyLayerVisibility() {
+    Object.entries(allMarkers).forEach(([type, mArr]) => {
+      mArr.forEach(m => layers[type] ? map.addLayer(m) : map.removeLayer(m));
+    });
+  }
+
+  // ── BOOT ─────────────────────────────────────────────────────
+  refresh();
+</script>
+</body>
+</html>
