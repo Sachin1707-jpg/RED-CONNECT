@@ -400,9 +400,10 @@ Built with ❤️ for India
 
 | Name | Role |
 |---|---|
-| [Your Name] | Full Stack Developer |
-| [Teammate 2] | Backend and Matching Engine |
-| [Teammate 3] | UI/UX and Frontend |
+| [Sachin Verma] | Full Stack Developer |
+| [Shivam Kumar] | Backend and Matching Engine |
+| [Muskan Mishra] | UI/UX and Frontend |
+| [Isha Pundir]  | Testing and presentation |
 
 ---
 
